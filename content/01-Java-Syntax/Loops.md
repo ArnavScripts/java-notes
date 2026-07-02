@@ -60,17 +60,12 @@ while (true) {
 > - `while (i < n);` with a stray `;` is an empty-body infinite loop.
 
 ## Loop selection guide
-```mermaid
-flowchart TD
-    A["Need to repeat?"] --> B{"Know iteration count?"}
-    B -->|Yes| C["for"]
-    B -->|No| D{"Must run at least once?"}
-    D -->|Yes| E["do-while"]
-    D -->|No| F["while"]
-    C --> G["Use index or counter"]
-    E --> H["Use post-test condition"]
-    F --> I["Use pre-test condition"]
-```
+| Situation | Choose |
+|-----------|--------|
+| Known iteration count | `for` |
+| Unknown count, may run zero times | `while` |
+| Unknown count, must run at least once | `do-while` |
+| Iterate every element | enhanced `for` |
 
 ## Loop complexity patterns
 | Loop shape | Complexity | Example |

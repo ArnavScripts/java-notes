@@ -63,13 +63,12 @@ for (int i = 0; i < rows; i++)
 > - 2D `int[][] grid = new int[n][]` gives `null` rows — allocate each before use.
 
 ## Memory layout
-```mermaid
-flowchart LR
-    A["int[] a"] -->|reference| B["Array object on heap"]
-    B --> C["length=5"]
-    B --> D["a[0]=1"]
-    B --> E["a[1]=2"]
-    B --> F["..."]
+```
+int[] a  ----->  Array object
+                 ├── length = 5
+                 ├── a[0] = 1
+                 ├── a[1] = 2
+                 └── ...
 ```
 
 ## Arrays vs `ArrayList`

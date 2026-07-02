@@ -58,15 +58,13 @@ Inlined by the compiler when possible → no runtime lookup.
 > `static` methods are the contest `main`'s helpers: `static void solve(BufferedReader r){...}`. Common in LeetCode-style because `Solution` has only instance methods, but in raw CP code everything is `static`.
 
 ## Memory layout: instance vs static
-```mermaid
-flowchart TB
-    subgraph Heap["Heap"]
-        O1[Object A: x=10] --- F1[instance field x]
-        O2[Object B: x=20] --- F2[instance field x]
-        SF[Class Area: count=2] --- F3[static field count]
-    end
-    O1 -.->|shares| SF
-    O2 -.->|shares| SF
+```
+Heap
+├── Object A  ────────────────┐
+│   └── instance field x = 10 │
+├── Object B                  ├──>  Class area
+│   └── instance field x = 20 │     └── static count = 2
+└─────────────────────────────┘
 ```
 
 ## Static imports (readability shortcut)

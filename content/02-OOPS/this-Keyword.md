@@ -52,11 +52,13 @@ Builder b = new Builder().add("a").add("b");   // fluent chain
 ## Mental model: `this` is the object's "selfie stick"
 Inside an instance method, `this` points at the object that received the message. `static` methods have no receiver, so no `this`.
 
-```mermaid
-flowchart LR
-    A[Object: Box] -->|"this.w"| B[field w]
-    C[Constructor parameter w] -->|"w = w (no effect)"| D[local parameter]
-    C -->|"this.w = w"| B
+```
+Box object
+   └── field w  <──────  this.w = w  (assigns field)
+                            │
+param w  ──────────────────┘
+
+param w = w  (assigns parameter to itself, no effect)
 ```
 
 ## Quick reference

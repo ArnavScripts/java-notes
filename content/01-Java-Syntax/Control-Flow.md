@@ -57,12 +57,16 @@ int max = (a > b) ? a : b;
 > - Use `.equals()` for `String` in `if`, never `==`.
 
 ## Decision flowchart
-```mermaid
-flowchart TD
-    A{Condition?} -->|true| B[then block]
-    A -->|false| C[else block]
-    B --> D[Continue]
-    C --> D
+```
+    Condition?
+    /        \
+ true          false
+  |             |
+  v             v
+ then        else
+  |             |
+  +------>------+
+       continue
 ```
 
 ## `switch` comparison: classic vs arrow

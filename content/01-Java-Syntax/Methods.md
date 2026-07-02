@@ -65,20 +65,18 @@ static int fact(int n) { return n <= 1 ? 1 : n * fact(n - 1); }
 > - Overload ambiguity: `max(5, 5L)` may need an explicit cast.
 
 ## Pass-by-value visualized
-```mermaid
-flowchart LR
-    subgraph Caller["Caller stack"]
-        A["int x = 5"]
-        B["int[] arr"]
-        B -->|ref| O["[1,2,3]"]
-    end
-    subgraph Callee["Callee stack"]
-        A2["int x = 5\n(copy)"]
-        B2["int[] arr\n(copy of ref)"]
-        B2 -->|same ref| O
-    end
-    A -->|copied| A2
-    B -->|copied| B2
+```
+Caller                      Callee
++------------------+        +------------------+
+| int x = 5        |        | int x = 5 copy   |
+| int[] arr  ------|------> | int[] arr copy   |
++------------------+        +---------|--------+
+         |                            |
+         | ref                        | same ref
+         v                            v
+    +----------+                 +----------+
+    | [1,2,3]  |                 | [1,2,3]  |
+    +----------+                 +----------+
 ```
 - Primitives: the copy is independent.
 - References: the copy points to the same object — mutations are visible, reassignments are not.

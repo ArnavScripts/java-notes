@@ -55,23 +55,17 @@ java Hello         # runs main()
 > - `System.out.println` adds a newline; `System.out.print` does not.
 
 ## The Java toolchain flow
-```mermaid
-flowchart LR
-    A["Source code\nHello.java"] -->|javac| B["Bytecode\nHello.class"]
-    B -->|java| C["JVM"]
-    C -->|executes| D["Program output"]
+```
+Hello.java  --javac-->  Hello.class  --java-->  JVM  -->  Output
 ```
 
 ## JVM, JRE, JDK relationship
-```mermaid
-flowchart TB
-    subgraph JDK["JDK"]
-        subgraph JRE["JRE"]
-            JVM["JVM"]
-            Lib["Core libraries"]
-        end
-        Dev["Dev tools: javac, javadoc, jar"]
-    end
+```
+JDK
+├── JRE
+│   ├── JVM
+│   └── Core libraries
+└── Dev tools: javac, javadoc, jar
 ```
 
 ## Common commands

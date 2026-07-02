@@ -54,18 +54,14 @@ class Account {
 > Make fields `private` by default. Expose behavior through methods. Widen access only when you have a reason. This is the foundation of [[SOLID-Principles]] and prevents "anemic" data-bag classes.
 
 ## Encapsulation as a protective shell
-```mermaid
-flowchart LR
-    subgraph Account["Account object"]
-        F["private double balance"]
-        M1["deposit(amt)"]
-        M2["withdraw(amt)"]
-    end
-    U[Client code] -->|calls| M1
-    U -->|calls| M2
-    M1 -->|validates & mutates| F
-    M2 -->|validates & mutates| F
-    U -.->|cannot touch directly| F
+```
+Client code
+    │
+    ├─calls──>  deposit(amt)  ──validates──>  private balance
+    │                                              ▲
+    └─calls──>  withdraw(amt) ──validates───────┘
+
+Direct access to private balance: BLOCKED
 ```
 
 ## POJO vs rich object

@@ -63,16 +63,13 @@ int y = (int) 3.99;     // explicit narrowing -> 3 (truncates)
 > - Comparing wrappers with `==` is identity; use `.equals`.
 
 ## Stack vs heap for primitives vs references
-```mermaid
-flowchart LR
-    subgraph Stack["Stack"]
-        P["int x = 5"]
-        R["Point p"]
-    end
-    subgraph Heap["Heap"]
-        O["Point object\nx=5, y=10"]
-    end
-    R -->|reference| O
+```
+Stack                       Heap
++------------------+        +------------------+
+| int x = 5        |        | Point object     |
+| Point p  --------|------> |   x = 5          |
++------------------+        |   y = 10         |
+                            +------------------+
 ```
 - Primitive variables store the **value** directly.
 - Reference variables store the **address** of an object on the heap.

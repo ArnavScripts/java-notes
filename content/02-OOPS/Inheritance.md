@@ -57,20 +57,13 @@ Every class implicitly extends `Object` → inherits `toString/equals/hashCode/g
 > - HAS-A → **composition** (a `Car` HAS-A `Engine` field). Prefer composition for flexibility — [[SOLID-Principles]] (composition over inheritance).
 
 ## Class hierarchy diagram
-```mermaid
-classDiagram
-    class Animal {
-        +String name
-        +eat()
-    }
-    class Dog {
-        +bark()
-    }
-    class Cat {
-        +meow()
-    }
-    Animal <|-- Dog
-    Animal <|-- Cat
+```
+        Animal
+       /      \
+    Dog        Cat
+   +bark()    +meow()
+
+Dog IS-A Animal    Cat IS-A Animal
 ```
 
 ## Method lookup order

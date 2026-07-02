@@ -50,14 +50,15 @@ Hierarchy: `Throwable` → `Error` (JVM-level, don't catch) / `Exception` → `R
 > - Catching `Exception` broadly hides bugs; catch the most specific type you can.
 
 ## Exception hierarchy
-```mermaid
-flowchart TD
-    T[Throwable] --> E[Error]
-    T --> Ex[Exception]
-    Ex --> R[RuntimeException]
-    Ex --> C[Checked exceptions<br/>IOException, SQLException]
-    R --> U[Unchecked exceptions<br/>NullPointerException, ArithmeticException]
-    E --> J[JVM-level errors<br/>OutOfMemoryError, StackOverflowError]
+```
+Throwable
+├── Error
+│   └── OutOfMemoryError, StackOverflowError, ...
+└── Exception
+    ├── RuntimeException  (unchecked)
+    │   └── NullPointerException, ArithmeticException, ...
+    └── Other checked exceptions
+        └── IOException, SQLException, ...
 ```
 
 ## try-with-resources (preferred for closeables)

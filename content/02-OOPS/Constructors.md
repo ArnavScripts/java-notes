@@ -55,17 +55,21 @@ class Car {
 ## Initialization sequence visualized
 When you write `new Dog("Rex")`:
 
-```mermaid
-sequenceDiagram
-    participant User
-    participant JVM
-    participant Animal
-    participant Dog
-    User->>JVM: new Dog("Rex")
-    JVM->>Animal: super() / field init
-    Animal-->>JVM: parent ready
-    JVM->>Dog: field init + constructor body
-    Dog-->>User: object reference
+```
+User  --new Dog("Rex")-->  JVM
+                            |
+                            v
+                    Animal constructor
+                    (super / field init)
+                            |
+                            v
+                    Dog field initializers
+                            |
+                            v
+                    Dog constructor body
+                            |
+                            v
+                    Object reference returned
 ```
 
 ## Copy constructor vs `clone`
