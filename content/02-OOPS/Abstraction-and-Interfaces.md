@@ -5,7 +5,7 @@ tags:
   - java/abstraction
   - java/interfaces
 difficulty: medium
-pattern: ""
+status: evergreen
 related:
   - "[[Inheritance]]"
   - "[[Polymorphism]]"
@@ -15,6 +15,7 @@ aliases:
   - Interface
   - default methods
 ---
+
 
 # Abstraction & Interfaces
 

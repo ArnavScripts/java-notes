@@ -1,9 +1,10 @@
 ---
 type: concept
 tags:
+  - dsa/algo
   - dsa/algo/dp
 difficulty: hard
-pattern: ""
+status: evergreen
 related:
   - "[[Recursion]]"
   - "[[Divide-and-Conquer]]"
@@ -16,6 +17,7 @@ aliases:
   - Memoization
   - Tabulation
 ---
+
 
 # Dynamic Programming (DP)
 

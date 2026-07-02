@@ -1,15 +1,16 @@
 ---
 type: concept
 tags:
-  - java/syntax
-  - java/control-flow
+- java/syntax
+- java/control-flow
 difficulty: easy
-pattern: ""
+status: evergreen
 related:
-  - "[[Loops]]"
-  - "[[Operators]]"
-aliases: []
+- '[[Loops]]'
+- '[[Operators]]'
 ---
+
+
 
 # Control Flow
 
@@ -54,6 +55,28 @@ int max = (a > b) ? a : b;
 > - **Fall-through**: forgetting `break` in a classic `switch` runs the next case too. (Arrow form `->` avoids this.)
 > - `switch` doesn't accept `boolean`, `long`, `float`, `double`.
 > - Use `.equals()` for `String` in `if`, never `==`.
+
+## Decision flowchart
+```mermaid
+flowchart TD
+    A{Condition?} -->|true| B[then block]
+    A -->|false| C[else block]
+    B --> D[Continue]
+    C --> D
+```
+
+## `switch` comparison: classic vs arrow
+| Feature | Classic `case X:` | Arrow `case X ->` |
+|---------|-------------------|-------------------|
+| Fall-through | Yes (need `break`) | No |
+| Multiple statements | Yes | Must use `{}` block |
+| Return value | No | Yes (expression) |
+| Multiple constants | `case 1: case 2:` | `case 1, 2 ->` |
+
+## DSA usage
+- Binary decisions → ternary or `if`.
+- State machines / command parsing → `switch` on `char`/`int`/`String`.
+- Avoid deep nesting; early `return` or guard clauses keep code flat.
 
 ## Pattern recognition cues
 - Branch on a single discrete value → `switch`.

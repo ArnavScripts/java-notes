@@ -1,12 +1,14 @@
 ---
 type: question
 tags:
-  - practice
-  - easy
-  - linkedlist
+  - dsa/ds/linked-list
+  - dsa/pattern/in-place-reversal
   - inplacereversal
+  - practice
+  - practice/easy
 difficulty: easy
 pattern: "[[In-Place-Reversal]]"
+status: evergreen
 source: "LeetCode 206"
 related:
   - "[[In-Place-Reversal]]"
@@ -15,6 +17,7 @@ related:
 aliases:
   - Reverse Linked List
 ---
+
 
 # Reverse Linked List
 

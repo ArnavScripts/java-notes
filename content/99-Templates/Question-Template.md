@@ -1,13 +1,20 @@
 ---
 type: question
 tags:
+  - practice
   - template
-difficulty:
-pattern: 
-related: []
-source: ""
-aliases: []
+  - practice/medium
+  - dsa/pattern/two-pointers
+difficulty: medium
+pattern: "[[Two-Pointers]]"
+status: seedling
+source: "LeetCode "
+related:
+  - "[[Two-Pointers]]"
+aliases:
+  - "Problem Title"
 ---
+
 
 # {{title}}
 

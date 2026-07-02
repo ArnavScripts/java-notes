@@ -1,9 +1,10 @@
 ---
 type: concept
 tags:
+  - dsa/ds
   - java/ds/hashset
 difficulty: easy
-pattern: ""
+status: evergreen
 related:
   - "[[HashMap]]"
   - "[[Object-Class]]"
@@ -14,6 +15,7 @@ aliases:
   - HashSet
   - Set DS
 ---
+
 
 # HashSet
 

@@ -1,13 +1,14 @@
 ---
 type: question
 tags:
+  - dsa/ds/arrays
+  - dsa/pattern/prefix-sum
+  - dsa/pattern/two-pointers
   - practice
-  - hard
-  - array
-  - twopointers
-  - prefixsum
+  - practice/hard
 difficulty: hard
 pattern: "[[Two-Pointers]]"
+status: evergreen
 source: "LeetCode 42"
 related:
   - "[[Two-Pointers]]"
@@ -16,6 +17,7 @@ related:
 aliases:
   - Trapping Rain Water
 ---
+
 
 # Trapping Rain Water
 

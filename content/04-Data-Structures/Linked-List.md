@@ -1,9 +1,10 @@
 ---
 type: concept
 tags:
+  - dsa/ds
   - java/ds/linked-list
 difficulty: medium
-pattern: ""
+status: evergreen
 related:
   - "[[Fast-Slow-Pointers]]"
   - "[[In-Place-Reversal]]"
@@ -15,6 +16,7 @@ aliases:
   - Singly Linked List
   - Doubly Linked List
 ---
+
 
 # Linked List
 

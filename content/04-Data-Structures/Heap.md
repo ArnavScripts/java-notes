@@ -1,9 +1,10 @@
 ---
 type: concept
 tags:
+  - dsa/ds
   - java/ds/heap
 difficulty: medium
-pattern: ""
+status: evergreen
 related:
   - "[[BST]]"
   - "[[K-Way-Merge]]"
@@ -16,6 +17,7 @@ aliases:
   - Min Heap
   - Max Heap
 ---
+
 
 # Heap / Priority Queue
 

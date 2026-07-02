@@ -4,7 +4,7 @@ tags:
   - java/advanced
   - java/io
 difficulty: medium
-pattern: ""
+status: evergreen
 related:
   - "[[Input-Output]]"
   - "[[Exception-Handling]]"
@@ -13,6 +13,7 @@ aliases:
   - File I/O
   - NIO
 ---
+
 
 # I/O & NIO
 

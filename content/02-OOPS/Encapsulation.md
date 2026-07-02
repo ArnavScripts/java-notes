@@ -4,7 +4,7 @@ tags:
   - java/oops
   - java/encapsulation
 difficulty: easy
-pattern: ""
+status: evergreen
 related:
   - "[[Classes-and-Objects]]"
   - "[[Object-Class]]"
@@ -13,6 +13,7 @@ aliases:
   - Encapsulation
   - Access modifiers
 ---
+
 
 # Encapsulation
 
@@ -51,6 +52,38 @@ class Account {
 
 > [!tip] Default posture
 > Make fields `private` by default. Expose behavior through methods. Widen access only when you have a reason. This is the foundation of [[SOLID-Principles]] and prevents "anemic" data-bag classes.
+
+## Encapsulation as a protective shell
+```mermaid
+flowchart LR
+    subgraph Account["Account object"]
+        F["private double balance"]
+        M1["deposit(amt)"]
+        M2["withdraw(amt)"]
+    end
+    U[Client code] -->|calls| M1
+    U -->|calls| M2
+    M1 -->|validates & mutates| F
+    M2 -->|validates & mutates| F
+    U -.->|cannot touch directly| F
+```
+
+## POJO vs rich object
+| Style | Characteristics | Verdict |
+|-------|-----------------|---------|
+| Anemic POJO | public getters/setters for every field | Leaks invariants |
+| Rich object | private fields + behavior methods | Maintains invariants |
+| Record | compact data carrier | Great for immutable DTOs |
+
+## Encapsulation in collections
+```java
+private List<Item> items = new ArrayList<>();
+
+public List<Item> getItems() {
+    return Collections.unmodifiableList(items); // safe view
+}
+```
+Returning the raw list lets callers clear it — breaking encapsulation.
 
 > [!warning] Pitfalls
 > - Encapsulation ≠ just getters/setters for every field (that leaks structure). Prefer **behavior methods** (`deposit`, not `setBalance`).

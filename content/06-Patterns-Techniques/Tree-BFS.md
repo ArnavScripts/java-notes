@@ -1,9 +1,11 @@
 ---
 type: concept
 tags:
+  - dsa/pattern
   - dsa/pattern/tree-bfs
 difficulty: medium
 pattern: "[[Tree-BFS]]"
+status: evergreen
 related:
   - "[[Queue]]"
   - "[[BST]]"
@@ -13,6 +15,7 @@ aliases:
   - Tree BFS
   - Level order traversal
 ---
+
 
 # Tree BFS (Level-Order)
 

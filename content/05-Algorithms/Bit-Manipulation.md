@@ -1,9 +1,10 @@
 ---
 type: concept
 tags:
+  - dsa/algo
   - dsa/algo/bit
 difficulty: medium
-pattern: ""
+status: evergreen
 related:
   - "[[Operators]]"
   - "[[Variables-and-Data-Types]]"
@@ -14,6 +15,7 @@ aliases:
   - Bitwise
   - XOR tricks
 ---
+
 
 # Bit Manipulation
 

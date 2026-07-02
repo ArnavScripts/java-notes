@@ -3,6 +3,7 @@ type: moc
 tags:
   - moc
   - java/advanced
+status: evergreen
 related:
   - "[[00-Index-MOC]]"
   - "[[02-OOPS-MOC]]"
@@ -10,6 +11,7 @@ related:
 aliases:
   - Java Advanced MOC
 ---
+
 
 # Java Advanced — MOC
 
@@ -29,7 +31,14 @@ The parts of Java that turn "I can write a loop" into "I can write efficient, id
 
 ## Dataview: this section
 ```dataview
-TABLE difficulty, related as "Links"
+TABLE difficulty, status, related as "Links"
 WHERE file.folder = "03-Java-Advanced" AND type = "concept"
 SORT file.name
+```
+
+## Dataview: thin notes to expand
+```dataview
+TABLE file.name as "Note", length(file.content) as "Chars"
+WHERE file.folder = "03-Java-Advanced" AND type = "concept" AND length(file.content) < 3000
+SORT length(file.content) ASC
 ```

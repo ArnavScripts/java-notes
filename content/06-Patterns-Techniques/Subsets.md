@@ -1,9 +1,11 @@
 ---
 type: concept
 tags:
+  - dsa/pattern
   - dsa/pattern/subsets
 difficulty: medium
 pattern: "[[Subsets]]"
+status: evergreen
 related:
   - "[[Backtracking]]"
   - "[[Recursion]]"
@@ -14,6 +16,7 @@ aliases:
   - Combinations
   - Permutations pattern
 ---
+
 
 # Subsets
 

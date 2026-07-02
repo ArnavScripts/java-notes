@@ -1,12 +1,14 @@
 ---
 type: question
 tags:
+  - dsa/algo/backtracking
+  - dsa/pattern/subsets
   - practice
-  - medium
-  - backtracking
+  - practice/medium
   - subsets
 difficulty: medium
 pattern: "[[Subsets]]"
+status: evergreen
 source: "LeetCode 78"
 related:
   - "[[Subsets]]"
@@ -16,6 +18,7 @@ aliases:
   - Subsets
   - Power Set
 ---
+
 
 # Subsets
 

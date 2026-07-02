@@ -1,12 +1,14 @@
 ---
 type: question
 tags:
+  - dsa/ds/arrays
+  - dsa/ds/hashmap
+  - dsa/pattern/hashmap
   - practice
-  - easy
-  - array
-  - hashmap
+  - practice/easy
 difficulty: easy
 pattern: "[[HashMap]]"
+status: evergreen
 source: "LeetCode 1"
 related:
   - "[[HashMap]]"
@@ -15,6 +17,7 @@ related:
 aliases:
   - Two Sum
 ---
+
 
 # Two Sum
 

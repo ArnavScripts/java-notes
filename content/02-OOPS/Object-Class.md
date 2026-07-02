@@ -4,7 +4,7 @@ tags:
   - java/oops
   - java/object
 difficulty: medium
-pattern: ""
+status: evergreen
 related:
   - "[[Classes-and-Objects]]"
   - "[[Inheritance]]"
@@ -16,6 +16,7 @@ aliases:
   - equals hashCode
   - toString
 ---
+
 
 # The `Object` Class
 

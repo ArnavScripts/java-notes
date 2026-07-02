@@ -1,9 +1,10 @@
 ---
 type: concept
 tags:
+  - dsa/ds
   - java/ds/trie
 difficulty: hard
-pattern: ""
+status: evergreen
 related:
   - "[[Strings-DS]]"
   - "[[HashMap]]"
@@ -13,6 +14,7 @@ aliases:
   - Trie
   - Prefix Tree
 ---
+
 
 # Trie
 

@@ -4,7 +4,7 @@ tags:
   - java/advanced
   - java/exceptions
 difficulty: medium
-pattern: ""
+status: evergreen
 related:
   - "[[Exception-Basics]]"
   - "[[Abstraction-and-Interfaces]]"
@@ -13,6 +13,7 @@ aliases:
   - Exception Handling
   - Custom exceptions
 ---
+
 
 # Exception Handling (Design Level)
 

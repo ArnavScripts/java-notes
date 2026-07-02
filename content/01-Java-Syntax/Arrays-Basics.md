@@ -4,7 +4,7 @@ tags:
   - java/syntax
   - java/arrays
 difficulty: easy
-pattern: ""
+status: evergreen
 related:
   - "[[Loops]]"
   - "[[Arrays]]"
@@ -12,6 +12,7 @@ related:
 aliases:
   - Java Arrays
 ---
+
 
 # Arrays Basics
 
@@ -60,6 +61,33 @@ for (int i = 0; i < rows; i++)
 > - Index out of `[0, length-1]` → `ArrayIndexOutOfBoundsException`.
 > - Comparing two arrays with `==` compares references; use `Arrays.equals`.
 > - 2D `int[][] grid = new int[n][]` gives `null` rows — allocate each before use.
+
+## Memory layout
+```mermaid
+flowchart LR
+    A["int[] a"] -->|reference| B["Array object on heap"]
+    B --> C["length=5"]
+    B --> D["a[0]=1"]
+    B --> E["a[1]=2"]
+    B --> F["..."]
+```
+
+## Arrays vs `ArrayList`
+| Feature | `int[]` | `ArrayList<Integer>` |
+|---------|---------|----------------------|
+| Size | Fixed | Grows dynamically |
+| Primitives | Direct | Autoboxed |
+| Generics | No | Yes |
+| Methods | `Arrays.*` utilities | Rich API |
+| DSA usage | Preferred for performance | Use when size unknown |
+
+## Copying arrays
+```java
+int[] b = a.clone();           // shallow copy of primitives
+int[] c = Arrays.copyOf(a, n); // first n elements, padded if n > a.length
+int[] d = Arrays.copyOfRange(a, 1, 4); // indices [1, 4)
+System.arraycopy(a, 0, b, 0, a.length); // manual block copy
+```
 
 ## Practice questions
 - Reverse an array in place → [[In-Place-Reversal]]

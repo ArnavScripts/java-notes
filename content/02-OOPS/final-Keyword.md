@@ -4,7 +4,7 @@ tags:
   - java/oops
   - java/final
 difficulty: easy
-pattern: ""
+status: evergreen
 related:
   - "[[Variables-and-Data-Types]]"
   - "[[Inheritance]]"
@@ -12,6 +12,7 @@ related:
 aliases:
   - final keyword
 ---
+
 
 # `final` Keyword
 
@@ -53,6 +54,29 @@ Runnable r = () -> System.out.println(base + 1);   // OK
 
 > [!tip] Immutability recipe
 > `final class` + `private final` fields + no setters + defensive copies on input/output = an immutable value type. Immutable objects are inherently thread-safe ([[Multithreading]]) and make great `HashMap` keys.
+
+## `final` at a glance
+| Applied to | Effect | Example |
+|------------|--------|---------|
+| Local variable | Assign once | `final int x = 5;` |
+| Instance field | Must be set by ctor end | `private final String id;` |
+| Parameter | Can't reassign inside method | `void foo(final int n)` |
+| Method | Can't be overridden | `public final void config()` |
+| Class | Can't be extended | `public final class String` |
+| Reference | Reference fixed, object mutable | `final List<String> list = new ArrayList<>();` |
+
+## `final` + collections: a common trap
+```java
+final List<Integer> nums = new ArrayList<>();
+nums.add(1);      // OK: object is mutable
+nums = newList;   // ERROR: reference is final
+```
+For an immutable list, use `List.of(...)` or wrap with `Collections.unmodifiableList`.
+
+## Why `String` is `final`
+- Security: prevents subclass from changing `equals`/`hashCode` behavior.
+- String pool works because no one can subclass and break identity.
+- Thread-safe by design without synchronization.
 
 > [!warning] Pitfalls
 > - `final` on a reference does **not** freeze the object's fields — common confusion.

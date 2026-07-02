@@ -4,7 +4,7 @@ tags:
   - java/oops
   - java/class
 difficulty: easy
-pattern: ""
+status: evergreen
 related:
   - "[[Constructors]]"
   - "[[this-Keyword]]"
@@ -15,6 +15,7 @@ aliases:
   - Class
   - Object
 ---
+
 
 # Classes & Objects
 

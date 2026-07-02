@@ -1,9 +1,11 @@
 ---
 type: concept
 tags:
+  - dsa/pattern
   - dsa/pattern/intervals
 difficulty: medium
 pattern: "[[Merge-Intervals]]"
+status: evergreen
 related:
   - "[[Sorting]]"
   - "[[Greedy]]"
@@ -12,6 +14,7 @@ aliases:
   - Merge Intervals
   - Intervals
 ---
+
 
 # Merge Intervals
 

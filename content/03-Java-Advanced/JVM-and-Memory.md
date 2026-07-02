@@ -4,7 +4,7 @@ tags:
   - java/advanced
   - java/jvm
 difficulty: hard
-pattern: ""
+status: evergreen
 related:
   - "[[Intro-and-Setup]]"
   - "[[Multithreading]]"
@@ -15,6 +15,7 @@ aliases:
   - Garbage collection
   - Memory model
 ---
+
 
 # JVM & Memory
 

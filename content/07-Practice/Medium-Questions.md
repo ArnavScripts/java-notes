@@ -2,7 +2,8 @@
 type: moc
 tags:
   - practice
-  - medium
+  - practice/medium
+status: evergreen
 related:
   - "[[07-Practice-MOC]]"
   - "[[Easy-Questions]]"
@@ -11,6 +12,7 @@ related:
 aliases:
   - Medium Questions
 ---
+
 
 # Medium Questions
 

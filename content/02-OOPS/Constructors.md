@@ -1,16 +1,17 @@
 ---
 type: concept
 tags:
-  - java/oops
-  - java/constructor
+- java/oops
+- java/constructor
 difficulty: easy
-pattern: ""
+status: evergreen
 related:
-  - "[[Classes-and-Objects]]"
-  - "[[this-Keyword]]"
-  - "[[Inheritance]]"
-aliases: []
+- '[[Classes-and-Objects]]'
+- '[[this-Keyword]]'
+- '[[Inheritance]]'
 ---
+
+
 
 # Constructors
 
@@ -50,6 +51,32 @@ class Car {
 
 > [!tip] Reuse via chaining
 > Put the "full" logic in one parameterized constructor; have the others delegate with `this(...)` so validation lives in one place.
+
+## Initialization sequence visualized
+When you write `new Dog("Rex")`:
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant JVM
+    participant Animal
+    participant Dog
+    User->>JVM: new Dog("Rex")
+    JVM->>Animal: super() / field init
+    Animal-->>JVM: parent ready
+    JVM->>Dog: field init + constructor body
+    Dog-->>User: object reference
+```
+
+## Copy constructor vs `clone`
+| Approach | Pros | Cons |
+|----------|------|------|
+| Copy constructor `Car(Car c)` | Simple, type-safe | Must write one per class |
+| `clone()` | Polymorphic | Verbose, `Cloneable` contract is awkward |
+| Copy factory `static Car of(Car c)` | Can return subclass | Less idiomatic |
+
+> [!warning] Shallow copy trap
+> A copy constructor copies reference fields verbatim. If the object contains mutable collections/arrays, deep-copy them to avoid shared state surprises.
 
 > [!warning] Pitfalls
 > - `this(...)` and `super(...)` can't both appear; and neither can be non-first.

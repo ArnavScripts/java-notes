@@ -1,16 +1,17 @@
 ---
 type: concept
 tags:
-  - java/syntax
-  - java/operators
+- java/syntax
+- java/operators
 difficulty: easy
-pattern: ""
+status: evergreen
 related:
-  - "[[Variables-and-Data-Types]]"
-  - "[[Control-Flow]]"
-  - "[[Bit-Manipulation]]"
-aliases: []
+- '[[Variables-and-Data-Types]]'
+- '[[Control-Flow]]'
+- '[[Bit-Manipulation]]'
 ---
+
+
 
 # Operators
 
@@ -61,6 +62,34 @@ String sign = x >= 0 ? "non-negative" : "negative";
 > - `=` assigns, `==` compares. `if (a = b)` compiles if `b` is boolean.
 > - `%` result sign follows the dividend: `-7 % 3 == -1`.
 > - Mixing `int` with `long`: promote before overflow, e.g. `1L * a * b`.
+
+## Precedence quick reference (high → low)
+| Precedence | Operators |
+|------------|-----------|
+| 1 (highest) | `()` `[]` `.` |
+| 2 | `++` `--` `+` `-` `!` `~` (unary) |
+| 3 | `*` `/` `%` |
+| 4 | `+` `-` |
+| 5 | `<<` `>>` `>>>` |
+| 6 | `<` `<=` `>` `>=` `instanceof` |
+| 7 | `==` `!=` |
+| 8 | `&` |
+| 9 | `^` |
+| 10 | `\|` |
+| 11 | `&&` |
+| 12 | `\|\|` |
+| 13 | `?:` |
+| 14 (lowest) | `=` `+=` `-=` etc. |
+
+When in doubt, add parentheses — clarity beats memorization.
+
+## Compound assignment with type cast
+```java
+byte b = 5;
+b = b + 1;   // compile error: int -> byte needs cast
+b += 1;      // OK: implicit cast happens inside
+b++;         // OK
+```
 
 ## Related
 - [[Variables-and-Data-Types]] · [[Bit-Manipulation]] · [[Control-Flow]]

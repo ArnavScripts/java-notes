@@ -1,9 +1,11 @@
 ---
 type: concept
 tags:
+  - dsa/pattern
   - dsa/pattern/k-way-merge
 difficulty: hard
 pattern: "[[K-Way-Merge]]"
+status: evergreen
 related:
   - "[[Heap]]"
   - "[[Linked-List]]"
@@ -13,6 +15,7 @@ aliases:
   - K Way Merge
   - Merge k sorted
 ---
+
 
 # K-Way Merge
 

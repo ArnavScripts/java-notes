@@ -1,13 +1,14 @@
 ---
 type: question
 tags:
-  - practice
-  - medium
-  - graph
-  - bfs
+  - dsa/ds/graph
+  - dsa/pattern/graph-bfs
   - grid
+  - practice
+  - practice/medium
 difficulty: medium
 pattern: "[[Graph-BFS]]"
+status: evergreen
 source: "LeetCode 200"
 related:
   - "[[Graph-BFS]]"
@@ -16,6 +17,7 @@ related:
 aliases:
   - Number of Islands
 ---
+
 
 # Number of Islands
 

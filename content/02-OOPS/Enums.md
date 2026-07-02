@@ -4,7 +4,7 @@ tags:
   - java/oops
   - java/enum
 difficulty: medium
-pattern: ""
+status: evergreen
 related:
   - "[[Classes-and-Objects]]"
   - "[[static-Keyword]]"
@@ -13,6 +13,7 @@ aliases:
   - Enum
   - Enums
 ---
+
 
 # Enums
 

@@ -1,9 +1,11 @@
 ---
 type: concept
 tags:
+  - dsa/pattern
   - dsa/pattern/monotonic-stack
 difficulty: hard
 pattern: "[[Monotonic-Stack]]"
+status: evergreen
 related:
   - "[[Stack]]"
   - "[[Arrays]]"
@@ -14,6 +16,7 @@ aliases:
   - Stock span
   - Largest rectangle in histogram
 ---
+
 
 # Monotonic Stack
 

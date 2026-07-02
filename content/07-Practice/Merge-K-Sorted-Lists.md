@@ -1,13 +1,15 @@
 ---
 type: question
 tags:
-  - practice
-  - hard
-  - linkedlist
+  - dsa/ds/heap
+  - dsa/ds/linked-list
+  - dsa/pattern/k-way-merge
   - kwaymerge
-  - heap
+  - practice
+  - practice/hard
 difficulty: hard
 pattern: "[[K-Way-Merge]]"
+status: evergreen
 source: "LeetCode 23"
 related:
   - "[[K-Way-Merge]]"
@@ -17,6 +19,7 @@ related:
 aliases:
   - Merge K Sorted Lists
 ---
+
 
 # Merge k Sorted Lists
 

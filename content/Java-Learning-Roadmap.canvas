@@ -1,0 +1,150 @@
+{
+  "nodes": [
+    {
+      "id": "87599cd2-ccf3-4bdc-9079-d63f60dd704c",
+      "x": 0,
+      "y": -200,
+      "width": 300,
+      "height": 80,
+      "type": "text",
+      "color": "1",
+      "text": "Java / OOPS / DS / DSA"
+    },
+    {
+      "id": "61151fcd-4431-44c8-b8a3-5adc0b5ffcfa",
+      "x": -600,
+      "y": 0,
+      "width": 240,
+      "height": 70,
+      "type": "file",
+      "color": "2",
+      "file": "01-Java-Syntax-MOC"
+    },
+    {
+      "id": "d020f110-c695-45d6-9328-044b740398e8",
+      "x": -300,
+      "y": 0,
+      "width": 240,
+      "height": 70,
+      "type": "file",
+      "color": "2",
+      "file": "02-OOPS-MOC"
+    },
+    {
+      "id": "db6761fe-4695-4f88-a329-937af911142e",
+      "x": 0,
+      "y": 0,
+      "width": 240,
+      "height": 70,
+      "type": "file",
+      "color": "2",
+      "file": "03-Java-Advanced-MOC"
+    },
+    {
+      "id": "8df50df5-f6b9-492d-99eb-95459a5bec7a",
+      "x": 300,
+      "y": 0,
+      "width": 240,
+      "height": 70,
+      "type": "file",
+      "color": "2",
+      "file": "04-Data-Structures-MOC"
+    },
+    {
+      "id": "c5724d9a-21b1-41b3-8f72-662e1e4e8028",
+      "x": 600,
+      "y": 0,
+      "width": 240,
+      "height": 70,
+      "type": "file",
+      "color": "2",
+      "file": "05-Algorithms-MOC"
+    },
+    {
+      "id": "cb6043e7-a0f9-4df0-9390-e21133889fdf",
+      "x": -150,
+      "y": 180,
+      "width": 240,
+      "height": 70,
+      "type": "file",
+      "color": "2",
+      "file": "06-Patterns-MOC"
+    },
+    {
+      "id": "81115b7c-49b0-44da-bf95-82b47b8de2f4",
+      "x": 150,
+      "y": 180,
+      "width": 240,
+      "height": 70,
+      "type": "file",
+      "color": "2",
+      "file": "07-Practice-MOC"
+    }
+  ],
+  "edges": [
+    {
+      "id": "9d86e05c-aee2-424a-bd08-c36d8e87812d",
+      "fromNode": "87599cd2-ccf3-4bdc-9079-d63f60dd704c",
+      "fromSide": "bottom",
+      "toNode": "61151fcd-4431-44c8-b8a3-5adc0b5ffcfa",
+      "toSide": "top",
+      "label": "Syntax"
+    },
+    {
+      "id": "f2f71744-4518-423d-b696-7bac230352d4",
+      "fromNode": "87599cd2-ccf3-4bdc-9079-d63f60dd704c",
+      "fromSide": "bottom",
+      "toNode": "d020f110-c695-45d6-9328-044b740398e8",
+      "toSide": "top",
+      "label": "OOPS"
+    },
+    {
+      "id": "ad34645c-21d0-465c-9904-6a1c968b114f",
+      "fromNode": "87599cd2-ccf3-4bdc-9079-d63f60dd704c",
+      "fromSide": "bottom",
+      "toNode": "db6761fe-4695-4f88-a329-937af911142e",
+      "toSide": "top",
+      "label": "Advanced"
+    },
+    {
+      "id": "87812177-c2a4-4cf3-985c-26073a8eba90",
+      "fromNode": "87599cd2-ccf3-4bdc-9079-d63f60dd704c",
+      "fromSide": "bottom",
+      "toNode": "8df50df5-f6b9-492d-99eb-95459a5bec7a",
+      "toSide": "top",
+      "label": "Data Structures"
+    },
+    {
+      "id": "027843f3-d9b3-4666-a4a7-fbdcc463fbc3",
+      "fromNode": "87599cd2-ccf3-4bdc-9079-d63f60dd704c",
+      "fromSide": "bottom",
+      "toNode": "c5724d9a-21b1-41b3-8f72-662e1e4e8028",
+      "toSide": "top",
+      "label": "Algorithms"
+    },
+    {
+      "id": "f0bfaeb9-58fb-4fcd-a00c-ea0df7b9e0fe",
+      "fromNode": "87599cd2-ccf3-4bdc-9079-d63f60dd704c",
+      "fromSide": "bottom",
+      "toNode": "cb6043e7-a0f9-4df0-9390-e21133889fdf",
+      "toSide": "top",
+      "label": "Patterns"
+    },
+    {
+      "id": "5668a5f9-c3c4-4b44-b501-a51be6c584ab",
+      "fromNode": "87599cd2-ccf3-4bdc-9079-d63f60dd704c",
+      "fromSide": "bottom",
+      "toNode": "81115b7c-49b0-44da-bf95-82b47b8de2f4",
+      "toSide": "top",
+      "label": "Practice"
+    },
+    {
+      "id": "c6efd716-e4ba-499d-bb50-6a7fa6506bef",
+      "fromNode": "cb6043e7-a0f9-4df0-9390-e21133889fdf",
+      "fromSide": "bottom",
+      "toNode": "81115b7c-49b0-44da-bf95-82b47b8de2f4",
+      "toSide": "top",
+      "label": "drill"
+    }
+  ]
+}

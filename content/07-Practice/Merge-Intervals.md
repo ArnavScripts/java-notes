@@ -1,12 +1,14 @@
 ---
 type: question
 tags:
-  - practice
-  - medium
+  - dsa/algo/sorting
+  - dsa/pattern/merge-intervals
   - intervals
-  - sorting
+  - practice
+  - practice/medium
 difficulty: medium
 pattern: "[[Merge-Intervals]]"
+status: evergreen
 source: "LeetCode 56"
 related:
   - "[[Merge-Intervals]]"
@@ -15,6 +17,7 @@ related:
 aliases:
   - Merge Intervals
 ---
+
 
 # Merge Intervals
 

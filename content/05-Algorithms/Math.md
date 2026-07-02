@@ -1,9 +1,10 @@
 ---
 type: concept
 tags:
+  - dsa/algo
   - dsa/algo/math
 difficulty: medium
-pattern: ""
+status: evergreen
 related:
   - "[[Bit-Manipulation]]"
   - "[[DP]]"
@@ -14,6 +15,7 @@ aliases:
   - GCD
   - Primes
 ---
+
 
 # Math
 

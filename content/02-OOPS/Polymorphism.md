@@ -4,7 +4,7 @@ tags:
   - java/oops
   - java/polymorphism
 difficulty: medium
-pattern: ""
+status: evergreen
 related:
   - "[[Inheritance]]"
   - "[[Abstraction-and-Interfaces]]"
@@ -15,6 +15,7 @@ aliases:
   - Overriding
   - Dynamic dispatch
 ---
+
 
 # Polymorphism
 

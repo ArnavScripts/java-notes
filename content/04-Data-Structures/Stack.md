@@ -1,9 +1,10 @@
 ---
 type: concept
 tags:
+  - dsa/ds
   - java/ds/stack
 difficulty: easy
-pattern: ""
+status: evergreen
 related:
   - "[[Queue]]"
   - "[[Monotonic-Stack]]"
@@ -14,6 +15,7 @@ aliases:
   - Stack DS
   - LIFO
 ---
+
 
 # Stack
 

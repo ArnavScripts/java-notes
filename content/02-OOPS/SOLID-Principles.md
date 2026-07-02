@@ -5,7 +5,7 @@ tags:
   - design
   - solid
 difficulty: medium
-pattern: ""
+status: evergreen
 related:
   - "[[Encapsulation]]"
   - "[[Abstraction-and-Interfaces]]"
@@ -15,6 +15,7 @@ aliases:
   - SOLID
   - Design principles
 ---
+
 
 # SOLID Principles
 

@@ -1,9 +1,11 @@
 ---
 type: concept
 tags:
+  - dsa/pattern
   - dsa/pattern/reversal
 difficulty: medium
 pattern: "[[In-Place-Reversal]]"
+status: evergreen
 related:
   - "[[Linked-List]]"
   - "[[Arrays]]"
@@ -13,6 +15,7 @@ aliases:
   - Reverse linked list
   - Reverse in groups
 ---
+
 
 # In-Place Reversal
 

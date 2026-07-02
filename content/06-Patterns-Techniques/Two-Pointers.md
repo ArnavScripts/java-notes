@@ -1,9 +1,11 @@
 ---
 type: concept
 tags:
+  - dsa/pattern
   - dsa/pattern/two-pointers
 difficulty: easy
 pattern: "[[Two-Pointers]]"
+status: evergreen
 related:
   - "[[Sliding-Window]]"
   - "[[Fast-Slow-Pointers]]"
@@ -15,6 +17,7 @@ aliases:
   - Two Pointers
   - Two pointers
 ---
+
 
 # Two Pointers
 

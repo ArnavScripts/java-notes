@@ -4,7 +4,7 @@ tags:
   - java/oops
   - java/inheritance
 difficulty: easy
-pattern: ""
+status: evergreen
 related:
   - "[[Constructors]]"
   - "[[Polymorphism]]"
@@ -15,6 +15,7 @@ aliases:
   - extends
   - IS-A
 ---
+
 
 # Inheritance
 
@@ -54,6 +55,40 @@ Every class implicitly extends `Object` → inherits `toString/equals/hashCode/g
 > [!tip] IS-A vs HAS-A
 > - IS-A → inherit (`Dog` IS-A `Animal`).
 > - HAS-A → **composition** (a `Car` HAS-A `Engine` field). Prefer composition for flexibility — [[SOLID-Principles]] (composition over inheritance).
+
+## Class hierarchy diagram
+```mermaid
+classDiagram
+    class Animal {
+        +String name
+        +eat()
+    }
+    class Dog {
+        +bark()
+    }
+    class Cat {
+        +meow()
+    }
+    Animal <|-- Dog
+    Animal <|-- Cat
+```
+
+## Method lookup order
+When you call `d.eat()` on a `Dog` reference:
+1. Check `Dog` for `eat()` → if overridden, use it.
+2. Else check parent `Animal`.
+3. Else check `Object`.
+4. Else `NoSuchMethodError`.
+
+This is the basis of **dynamic dispatch** — see [[Polymorphism]].
+
+## When to use inheritance vs composition
+| Inheritance | Composition |
+|-------------|-------------|
+| True IS-A | HAS-A / uses-a |
+| Reusing interface + behavior | Reusing implementation only |
+| Parent can be a subtype | Wrap or delegate to helper |
+| Risk: fragile base class | Risk: more boilerplate |
 
 > [!warning] Pitfalls
 > - Java has **no multiple class inheritance**. Need multiple types → use interfaces ([[Abstraction-and-Interfaces]]).

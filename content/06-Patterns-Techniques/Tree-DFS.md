@@ -1,9 +1,11 @@
 ---
 type: concept
 tags:
+  - dsa/pattern
   - dsa/pattern/tree-dfs
 difficulty: hard
 pattern: "[[Tree-DFS]]"
+status: evergreen
 related:
   - "[[BST]]"
   - "[[Recursion]]"
@@ -16,6 +18,7 @@ aliases:
   - Inorder
   - Postorder
 ---
+
 
 # Tree DFS
 

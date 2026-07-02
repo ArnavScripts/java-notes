@@ -4,7 +4,7 @@ tags:
   - java/advanced
   - java/generics
 difficulty: medium
-pattern: ""
+status: evergreen
 related:
   - "[[Collections-Framework]]"
   - "[[Abstraction-and-Interfaces]]"
@@ -13,6 +13,7 @@ aliases:
   - Generics
   - Type erasure
 ---
+
 
 # Generics
 

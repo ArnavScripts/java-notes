@@ -3,6 +3,7 @@ type: moc
 tags:
   - moc
   - dsa/algo
+status: evergreen
 related:
   - "[[00-Index-MOC]]"
   - "[[04-Data-Structures-MOC]]"
@@ -11,6 +12,7 @@ related:
 aliases:
   - Algorithms MOC
 ---
+
 
 # Algorithms — MOC
 
@@ -33,7 +35,14 @@ The "how" — procedures that transform inputs into answers, analyzed by **time/
 
 ## Dataview: this section
 ```dataview
-TABLE difficulty, related as "Links"
+TABLE difficulty, status, related as "Links"
 WHERE file.folder = "05-Algorithms" AND type = "concept"
 SORT file.name
+```
+
+## Dataview: thin notes to expand
+```dataview
+TABLE file.name as "Note", length(file.content) as "Chars"
+WHERE file.folder = "05-Algorithms" AND type = "concept" AND length(file.content) < 3000
+SORT length(file.content) ASC
 ```

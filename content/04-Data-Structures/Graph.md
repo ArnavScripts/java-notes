@@ -1,9 +1,10 @@
 ---
 type: concept
 tags:
+  - dsa/ds
   - java/ds/graph
 difficulty: hard
-pattern: ""
+status: evergreen
 related:
   - "[[Graph-BFS]]"
   - "[[Topological-Sort]]"
@@ -17,6 +18,7 @@ aliases:
   - Adjacency list
   - Adjacency matrix
 ---
+
 
 # Graph
 

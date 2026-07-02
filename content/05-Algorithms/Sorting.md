@@ -1,9 +1,10 @@
 ---
 type: concept
 tags:
+  - dsa/algo
   - dsa/algo/sorting
 difficulty: medium
-pattern: ""
+status: evergreen
 related:
   - "[[Arrays]]"
   - "[[Divide-and-Conquer]]"
@@ -16,6 +17,7 @@ aliases:
   - Mergesort
   - Counting sort
 ---
+
 
 # Sorting
 

@@ -1,9 +1,10 @@
 ---
 type: concept
 tags:
+  - dsa/ds
   - java/ds/string
 difficulty: easy
-pattern: ""
+status: evergreen
 related:
   - "[[Strings]]"
   - "[[Arrays]]"
@@ -15,6 +16,7 @@ aliases:
   - String DS
   - Substring
 ---
+
 
 # Strings (DS view)
 

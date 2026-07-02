@@ -4,7 +4,7 @@ tags:
   - java/oops
   - java/this
 difficulty: easy
-pattern: ""
+status: evergreen
 related:
   - "[[Constructors]]"
   - "[[Classes-and-Objects]]"
@@ -12,6 +12,7 @@ related:
 aliases:
   - this keyword
 ---
+
 
 # `this` Keyword
 
@@ -47,6 +48,24 @@ Builder b = new Builder().add("a").add("b");   // fluent chain
 
 > [!tip] Why it matters
 > Without `this`, a parameter named the same as a field shadows the field — the assignment `w = w;` would assign the param to itself (no-op). `this.w = w;` fixes it.
+
+## Mental model: `this` is the object's "selfie stick"
+Inside an instance method, `this` points at the object that received the message. `static` methods have no receiver, so no `this`.
+
+```mermaid
+flowchart LR
+    A[Object: Box] -->|"this.w"| B[field w]
+    C[Constructor parameter w] -->|"w = w (no effect)"| D[local parameter]
+    C -->|"this.w = w"| B
+```
+
+## Quick reference
+| Situation | Code | Meaning |
+|-----------|------|---------|
+| Shadowed field | `this.x = x;` | field = parameter |
+| Chaining | `this(args);` | call sibling constructor |
+| Fluent API | `return this;` | return current object |
+| In lambda | effectively final `this` | refers to enclosing object |
 
 > [!warning] Pitfalls
 > - Can't use `this` in a `static` method or static initializer.

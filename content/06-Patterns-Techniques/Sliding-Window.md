@@ -1,9 +1,11 @@
 ---
 type: concept
 tags:
+  - dsa/pattern
   - dsa/pattern/sliding-window
 difficulty: medium
 pattern: "[[Sliding-Window]]"
+status: evergreen
 related:
   - "[[Two-Pointers]]"
   - "[[HashMap]]"
@@ -16,6 +18,7 @@ aliases:
   - Variable window
   - Fixed window
 ---
+
 
 # Sliding Window
 

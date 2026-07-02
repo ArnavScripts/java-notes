@@ -3,6 +3,7 @@ type: moc
 tags:
   - moc
   - java/oops
+status: evergreen
 related:
   - "[[00-Index-MOC]]"
   - "[[01-Java-Syntax-MOC]]"
@@ -10,6 +11,7 @@ related:
 aliases:
   - OOP MOC
 ---
+
 
 # OOPS — MOC
 
@@ -35,7 +37,14 @@ Object-Oriented Programming: model the world as interacting objects. Four pillar
 
 ## Dataview: this section
 ```dataview
-TABLE difficulty, related as "Links"
+TABLE difficulty, status, related as "Links"
 WHERE file.folder = "02-OOPS" AND type = "concept"
 SORT file.name
+```
+
+## Dataview: thin notes to expand
+```dataview
+TABLE file.name as "Note", length(file.content) as "Chars"
+WHERE file.folder = "02-OOPS" AND type = "concept" AND length(file.content) < 3000
+SORT length(file.content) ASC
 ```

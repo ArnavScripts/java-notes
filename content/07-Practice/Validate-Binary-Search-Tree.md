@@ -1,0 +1,47 @@
+---
+type: question
+tags:
+  - practice
+  - practice/medium
+  - dsa/pattern/tree-dfs
+difficulty: medium
+pattern: "[[Tree-DFS]]"
+source: ""
+status: seedling
+related: []
+aliases:
+  - Validate Binary Search Tree
+---
+
+# Validate Binary Search Tree
+
+> [!note] Problem
+> 
+
+## Examples
+```
+Input:  
+Output: 
+```
+
+## Brute force
+- Idea: 
+- Time: O() · Space: O()
+
+## Optimal approach
+- Pattern: [[Tree-DFS]]
+- Idea: 
+- Steps:
+  1. 
+
+## Complexity
+- Time: O()
+- Space: O()
+
+## Java solution
+```java
+
+```
+
+## Related
+- 

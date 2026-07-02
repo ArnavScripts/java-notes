@@ -1,9 +1,10 @@
 ---
 type: concept
 tags:
+  - dsa/ds
   - java/ds/queue
 difficulty: easy
-pattern: ""
+status: evergreen
 related:
   - "[[Stack]]"
   - "[[Graph-BFS]]"
@@ -15,6 +16,7 @@ aliases:
   - Deque
   - FIFO
 ---
+
 
 # Queue
 

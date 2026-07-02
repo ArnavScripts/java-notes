@@ -1,9 +1,11 @@
 ---
 type: concept
 tags:
+  - dsa/pattern
   - dsa/pattern/graph-bfs
 difficulty: hard
 pattern: "[[Graph-BFS]]"
+status: evergreen
 related:
   - "[[Graph]]"
   - "[[Queue]]"
@@ -15,6 +17,7 @@ aliases:
   - BFS
   - Shortest path unweighted
 ---
+
 
 # Graph BFS
 

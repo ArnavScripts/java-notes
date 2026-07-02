@@ -1,12 +1,14 @@
 ---
 type: question
 tags:
-  - practice
-  - hard
-  - stack
+  - dsa/ds/stack
+  - dsa/pattern/monotonic-stack
   - monotonicstack
+  - practice
+  - practice/hard
 difficulty: hard
 pattern: "[[Monotonic-Stack]]"
+status: evergreen
 source: "LeetCode 84"
 related:
   - "[[Monotonic-Stack]]"
@@ -15,6 +17,7 @@ related:
 aliases:
   - Largest Rectangle in Histogram
 ---
+
 
 # Largest Rectangle in Histogram
 

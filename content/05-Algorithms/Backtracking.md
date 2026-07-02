@@ -1,9 +1,10 @@
 ---
 type: concept
 tags:
+  - dsa/algo
   - dsa/algo/backtracking
 difficulty: hard
-pattern: ""
+status: evergreen
 related:
   - "[[Recursion]]"
   - "[[Subsets]]"
@@ -14,6 +15,7 @@ aliases:
   - Backtracking
   - DFS with undo
 ---
+
 
 # Backtracking
 

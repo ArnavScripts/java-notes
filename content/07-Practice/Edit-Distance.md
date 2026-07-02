@@ -1,12 +1,14 @@
 ---
 type: question
 tags:
+  - dsa/algo/dp
+  - dsa/ds/strings
+  - dsa/pattern/dp
   - practice
-  - hard
-  - dp
-  - string
+  - practice/hard
 difficulty: hard
 pattern: "[[DP]]"
+status: evergreen
 source: "LeetCode 72"
 related:
   - "[[DP]]"
@@ -16,6 +18,7 @@ aliases:
   - Edit Distance
   - Levenshtein
 ---
+
 
 # Edit Distance
 

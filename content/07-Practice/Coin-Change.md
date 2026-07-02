@@ -1,11 +1,13 @@
 ---
 type: question
 tags:
+  - dsa/algo/dp
+  - dsa/pattern/dp
   - practice
-  - medium
-  - dp
+  - practice/medium
 difficulty: medium
 pattern: "[[DP]]"
+status: evergreen
 source: "LeetCode 322"
 related:
   - "[[DP]]"
@@ -14,6 +16,7 @@ related:
 aliases:
   - Coin Change
 ---
+
 
 # Coin Change
 

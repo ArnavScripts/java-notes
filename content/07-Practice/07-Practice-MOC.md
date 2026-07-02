@@ -3,6 +3,7 @@ type: moc
 tags:
   - moc
   - practice
+status: evergreen
 related:
   - "[[00-Index-MOC]]"
   - "[[06-Patterns-MOC]]"
@@ -13,6 +14,7 @@ aliases:
   - Practice MOC
   - Question bank MOC
 ---
+
 
 # Practice — MOC
 
@@ -35,14 +37,14 @@ The question bank. Every question carries `pattern:` and `difficulty:` metadata 
 
 ## Dataview: all questions by difficulty
 ```dataview
-TABLE pattern, source
+TABLE pattern, source, status
 WHERE type = "question"
 SORT difficulty ASC, file.name
 ```
 
 ## Dataview: questions grouped by pattern
 ```dataview
-TABLE file.name as "Question", difficulty
+TABLE file.name as "Question", difficulty, source, status
 WHERE type = "question"
 GROUP BY pattern
 SORT pattern
@@ -54,4 +56,11 @@ TABLE length(rows) as "Count"
 WHERE type = "question"
 GROUP BY pattern
 SORT pattern
+```
+
+## Dataview: seedling questions to fill
+```dataview
+TABLE pattern, difficulty
+WHERE type = "question" AND status = "seedling"
+SORT difficulty ASC, file.name
 ```

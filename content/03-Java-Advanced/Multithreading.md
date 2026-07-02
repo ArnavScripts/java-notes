@@ -4,7 +4,7 @@ tags:
   - java/advanced
   - java/concurrency
 difficulty: hard
-pattern: ""
+status: evergreen
 related:
   - "[[static-Keyword]]"
   - "[[JVM-and-Memory]]"
@@ -15,6 +15,7 @@ aliases:
   - Concurrency
   - ExecutorService
 ---
+
 
 # Multithreading
 

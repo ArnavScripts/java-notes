@@ -1,0 +1,148 @@
+{
+  "nodes": [
+    {
+      "id": "c171c412-e03a-47fc-9993-f5ac10dfeb10",
+      "x": 0,
+      "y": -150,
+      "width": 300,
+      "height": 70,
+      "type": "text",
+      "color": "1",
+      "text": "OOPS \u2014 4 Pillars"
+    },
+    {
+      "id": "da078304-c004-43ff-8130-f0d930370afa",
+      "x": -450,
+      "y": 50,
+      "width": 240,
+      "height": 80,
+      "type": "file",
+      "color": "3",
+      "file": "Encapsulation"
+    },
+    {
+      "id": "43cccfc5-4a90-408e-9263-1138acd98511",
+      "x": -150,
+      "y": 50,
+      "width": 240,
+      "height": 80,
+      "type": "file",
+      "color": "3",
+      "file": "Inheritance"
+    },
+    {
+      "id": "b25b71f8-fc61-415e-90a4-930f54d7f127",
+      "x": 150,
+      "y": 50,
+      "width": 240,
+      "height": 80,
+      "type": "file",
+      "color": "3",
+      "file": "Polymorphism"
+    },
+    {
+      "id": "4babe4c2-117e-4971-ab7e-760d9635e56a",
+      "x": 450,
+      "y": 50,
+      "width": 240,
+      "height": 80,
+      "type": "file",
+      "color": "3",
+      "file": "Abstraction-and-Interfaces"
+    },
+    {
+      "id": "0af6f682-b38f-48de-92b8-bb682c44ea66",
+      "x": -600,
+      "y": 220,
+      "width": 200,
+      "height": 70,
+      "type": "file",
+      "color": "4",
+      "file": "Classes-and-Objects"
+    },
+    {
+      "id": "8c1305e0-7454-424d-94f0-ac9742c5ed98",
+      "x": -360,
+      "y": 220,
+      "width": 200,
+      "height": 70,
+      "type": "file",
+      "color": "4",
+      "file": "Constructors"
+    },
+    {
+      "id": "474bb08f-f37f-41a6-9d7e-830ee2af22ea",
+      "x": -120,
+      "y": 220,
+      "width": 200,
+      "height": 70,
+      "type": "file",
+      "color": "4",
+      "file": "this-Keyword"
+    },
+    {
+      "id": "5918bf42-45f6-4425-bf2a-0ec672561ce5",
+      "x": 120,
+      "y": 220,
+      "width": 200,
+      "height": 70,
+      "type": "file",
+      "color": "4",
+      "file": "static-Keyword"
+    },
+    {
+      "id": "e0e99e65-7540-4d78-aebb-c5b3f70970ac",
+      "x": 360,
+      "y": 220,
+      "width": 200,
+      "height": 70,
+      "type": "file",
+      "color": "4",
+      "file": "Object-Class"
+    },
+    {
+      "id": "6ae8faac-1f31-421d-bc6e-1b25bccac545",
+      "x": 600,
+      "y": 220,
+      "width": 200,
+      "height": 70,
+      "type": "file",
+      "color": "4",
+      "file": "SOLID-Principles"
+    }
+  ],
+  "edges": [
+    {
+      "id": "4bb8b616-cb5c-4533-883d-24f4e7f46f2d",
+      "fromNode": "c171c412-e03a-47fc-9993-f5ac10dfeb10",
+      "fromSide": "bottom",
+      "toNode": "da078304-c004-43ff-8130-f0d930370afa",
+      "toSide": "top",
+      "label": "bundle + protect"
+    },
+    {
+      "id": "263f78bc-671a-4423-82b6-14f49b6c4ff3",
+      "fromNode": "c171c412-e03a-47fc-9993-f5ac10dfeb10",
+      "fromSide": "bottom",
+      "toNode": "43cccfc5-4a90-408e-9263-1138acd98511",
+      "toSide": "top",
+      "label": "reuse via IS-A"
+    },
+    {
+      "id": "fa3e88e7-7700-4183-b712-6440512e7600",
+      "fromNode": "c171c412-e03a-47fc-9993-f5ac10dfeb10",
+      "fromSide": "bottom",
+      "toNode": "b25b71f8-fc61-415e-90a4-930f54d7f127",
+      "toSide": "top",
+      "label": "one interface, many forms"
+    },
+    {
+      "id": "7bd5d497-13ab-4d36-b35b-61ca86c538b9",
+      "fromNode": "c171c412-e03a-47fc-9993-f5ac10dfeb10",
+      "fromSide": "bottom",
+      "toNode": "4babe4c2-117e-4971-ab7e-760d9635e56a",
+      "toSide": "top",
+      "label": "expose essentials"
+    }
+  ]
+}

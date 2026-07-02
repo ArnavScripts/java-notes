@@ -1,9 +1,11 @@
 ---
 type: concept
 tags:
+  - dsa/pattern
   - dsa/pattern/cyclic-sort
 difficulty: medium
 pattern: "[[Cyclic-Sort]]"
+status: evergreen
 related:
   - "[[Arrays]]"
   - "[[HashSet]]"
@@ -13,6 +15,7 @@ aliases:
   - Cycle sort
   - Index marking
 ---
+
 
 # Cyclic Sort
 

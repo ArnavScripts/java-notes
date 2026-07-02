@@ -1,10 +1,11 @@
 ---
 type: concept
 tags:
-  - java/ds/tree
+  - dsa/ds
   - java/ds/bst
+  - java/ds/tree
 difficulty: hard
-pattern: ""
+status: evergreen
 related:
   - "[[Tree-BFS]]"
   - "[[Tree-DFS]]"
@@ -17,6 +18,7 @@ aliases:
   - Binary Search Tree
   - Binary Tree
 ---
+
 
 # Binary Tree & BST
 

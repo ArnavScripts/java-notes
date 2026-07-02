@@ -4,7 +4,7 @@ tags:
   - java/advanced
   - java/collections
 difficulty: medium
-pattern: ""
+status: evergreen
 related:
   - "[[Generics]]"
   - "[[Arrays]]"
@@ -19,6 +19,7 @@ aliases:
   - Collections Framework
   - Java Collections
 ---
+
 
 # Collections Framework
 

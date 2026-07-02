@@ -1,12 +1,13 @@
 ---
 type: question
 tags:
+  - dsa/ds/arrays
+  - dsa/pattern/two-pointers
   - practice
-  - medium
-  - array
-  - twopointers
+  - practice/medium
 difficulty: medium
 pattern: "[[Two-Pointers]]"
+status: evergreen
 source: "LeetCode 15"
 related:
   - "[[Two-Pointers]]"
@@ -16,6 +17,7 @@ aliases:
   - 3Sum
   - Three Sum
 ---
+
 
 # 3Sum
 

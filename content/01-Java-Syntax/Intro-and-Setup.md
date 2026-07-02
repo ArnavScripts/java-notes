@@ -4,7 +4,7 @@ tags:
   - java/syntax
   - java/setup
 difficulty: easy
-pattern: ""
+status: evergreen
 related:
   - "[[Variables-and-Data-Types]]"
   - "[[Methods]]"
@@ -13,6 +13,7 @@ aliases:
   - Hello World
   - Java Setup
 ---
+
 
 # Intro & Setup
 
@@ -52,6 +53,37 @@ java Hello         # runs main()
 > [!warning] Pitfalls
 > - File name **must** match the `public class` name (case-sensitive).
 > - `System.out.println` adds a newline; `System.out.print` does not.
+
+## The Java toolchain flow
+```mermaid
+flowchart LR
+    A["Source code\nHello.java"] -->|javac| B["Bytecode\nHello.class"]
+    B -->|java| C["JVM"]
+    C -->|executes| D["Program output"]
+```
+
+## JVM, JRE, JDK relationship
+```mermaid
+flowchart TB
+    subgraph JDK["JDK"]
+        subgraph JRE["JRE"]
+            JVM["JVM"]
+            Lib["Core libraries"]
+        end
+        Dev["Dev tools: javac, javadoc, jar"]
+    end
+```
+
+## Common commands
+| Command | Purpose | Output |
+|---------|---------|--------|
+| `javac Hello.java` | Compile source | `Hello.class` |
+| `java Hello` | Run bytecode | Program execution |
+| `java -version` | Check installed version | Version string |
+| `javap -c Hello` | Disassemble bytecode | Instruction listing |
+
+## One-file rule
+A `.java` file may contain multiple classes, but at most **one** public class, and its filename must match that public class.
 
 ## Related
 - [[Variables-and-Data-Types]] — next: types

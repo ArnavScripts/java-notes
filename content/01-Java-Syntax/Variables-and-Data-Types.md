@@ -4,7 +4,7 @@ tags:
   - java/syntax
   - java/types
 difficulty: easy
-pattern: ""
+status: evergreen
 related:
   - "[[Operators]]"
   - "[[Intro-and-Setup]]"
@@ -13,6 +13,7 @@ aliases:
   - Data Types
   - Primitives
 ---
+
 
 # Variables & Data Types
 
@@ -60,6 +61,38 @@ int y = (int) 3.99;     // explicit narrowing -> 3 (truncates)
 > - Integer division: `5 / 2 == 2`, not 2.5. Use `5.0 / 2` or `5 / 2.0`.
 > - `NaN` propagates: `0.0/0.0` is `NaN`; use `Double.isNaN(x)`, not `==`.
 > - Comparing wrappers with `==` is identity; use `.equals`.
+
+## Stack vs heap for primitives vs references
+```mermaid
+flowchart LR
+    subgraph Stack["Stack"]
+        P["int x = 5"]
+        R["Point p"]
+    end
+    subgraph Heap["Heap"]
+        O["Point object\nx=5, y=10"]
+    end
+    R -->|reference| O
+```
+- Primitive variables store the **value** directly.
+- Reference variables store the **address** of an object on the heap.
+
+## Autoboxing cache gotchas
+```java
+Integer a = 127, b = 127;   // a == b  → true  (cached)
+Integer c = 128, d = 128;   // c == d  → false (new objects)
+Integer e = -129, f = -129; // e == f  → false (outside cache)
+```
+Always use `.equals` for wrapper comparison; `==` only works by accident for small cached values.
+
+## Type choice cheat-sheet
+| Scenario | Type | Why |
+|----------|------|-----|
+| Array indices, counts | `int` | Fast, sufficient for most sizes |
+| Factorials, large sums | `long` | Avoids `int` overflow |
+| Memory-conscious arrays | `byte` / `short` | Smaller footprint |
+| Money / precise decimals | `BigDecimal` | `double` has rounding errors |
+| Flags / compact storage | `boolean` | 1 bit conceptually |
 
 ## Related
 - [[Operators]] — how types interact with operators

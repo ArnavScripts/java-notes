@@ -1,9 +1,11 @@
 ---
 type: concept
 tags:
+  - dsa/pattern
   - dsa/pattern/fast-slow
 difficulty: medium
 pattern: "[[Fast-Slow-Pointers]]"
+status: evergreen
 related:
   - "[[Linked-List]]"
   - "[[Two-Pointers]]"
@@ -13,6 +15,7 @@ aliases:
   - Floyd's algorithm
   - Tortoise and Hare
 ---
+
 
 # Fast & Slow Pointers
 

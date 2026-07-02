@@ -1,9 +1,10 @@
 ---
 type: concept
 tags:
+  - dsa/ds
   - java/ds/hashmap
 difficulty: medium
-pattern: ""
+status: evergreen
 related:
   - "[[HashSet]]"
   - "[[Object-Class]]"
@@ -16,6 +17,7 @@ aliases:
   - Hash table
   - Frequency map
 ---
+
 
 # HashMap
 

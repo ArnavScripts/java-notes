@@ -1,11 +1,13 @@
 ---
 type: question
 tags:
+  - dsa/algo/backtracking
+  - dsa/pattern/backtracking
   - practice
-  - hard
-  - backtracking
+  - practice/hard
 difficulty: hard
 pattern: "[[Backtracking]]"
+status: evergreen
 source: "LeetCode 51"
 related:
   - "[[Backtracking]]"
@@ -14,6 +16,7 @@ related:
 aliases:
   - N-Queens
 ---
+
 
 # N-Queens
 

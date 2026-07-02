@@ -1,9 +1,11 @@
 ---
 type: concept
 tags:
+  - dsa/pattern
   - dsa/pattern/prefix-sum
 difficulty: medium
 pattern: "[[Prefix-Sum]]"
+status: evergreen
 related:
   - "[[Arrays]]"
   - "[[HashMap]]"
@@ -13,6 +15,7 @@ aliases:
   - Cumulative sum
   - Difference array
 ---
+
 
 # Prefix Sum
 

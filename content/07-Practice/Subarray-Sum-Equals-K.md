@@ -1,13 +1,14 @@
 ---
 type: question
 tags:
+  - dsa/ds/arrays
+  - dsa/ds/hashmap
+  - dsa/pattern/prefix-sum
   - practice
-  - medium
-  - array
-  - prefixsum
-  - hashmap
+  - practice/medium
 difficulty: medium
 pattern: "[[Prefix-Sum]]"
+status: evergreen
 source: "LeetCode 560"
 related:
   - "[[Prefix-Sum]]"
@@ -16,6 +17,7 @@ related:
 aliases:
   - Subarray Sum Equals K
 ---
+
 
 # Subarray Sum Equals K
 

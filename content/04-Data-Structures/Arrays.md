@@ -1,9 +1,10 @@
 ---
 type: concept
 tags:
+  - dsa/ds
   - java/ds/array
 difficulty: easy
-pattern: ""
+status: evergreen
 related:
   - "[[Arrays-Basics]]"
   - "[[Strings-DS]]"
@@ -17,6 +18,7 @@ related:
 aliases:
   - Array DS
 ---
+
 
 # Arrays
 

@@ -1,9 +1,10 @@
 ---
 type: concept
 tags:
+  - dsa/algo
   - dsa/algo/dc
 difficulty: medium
-pattern: ""
+status: evergreen
 related:
   - "[[Recursion]]"
   - "[[Sorting]]"
@@ -14,6 +15,7 @@ aliases:
   - Divide and Conquer
   - D&C
 ---
+
 
 # Divide and Conquer
 

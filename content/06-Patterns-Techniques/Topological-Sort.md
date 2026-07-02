@@ -1,9 +1,11 @@
 ---
 type: concept
 tags:
+  - dsa/pattern
   - dsa/pattern/topo-sort
 difficulty: hard
 pattern: "[[Topological-Sort]]"
+status: evergreen
 related:
   - "[[Graph]]"
   - "[[Queue]]"
@@ -14,6 +16,7 @@ aliases:
   - Kahn's algorithm
   - Course schedule
 ---
+
 
 # Topological Sort
 

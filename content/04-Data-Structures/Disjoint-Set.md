@@ -1,9 +1,10 @@
 ---
 type: concept
 tags:
+  - dsa/ds
   - java/ds/dsu
 difficulty: hard
-pattern: ""
+status: evergreen
 related:
   - "[[Graph]]"
   - "[[Topological-Sort]]"
@@ -13,6 +14,7 @@ aliases:
   - Union-Find
   - DSU
 ---
+
 
 # Disjoint Set (Union-Find)
 

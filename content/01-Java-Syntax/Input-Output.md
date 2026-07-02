@@ -4,7 +4,7 @@ tags:
   - java/syntax
   - java/io
 difficulty: easy
-pattern: ""
+status: evergreen
 related:
   - "[[Strings]]"
   - "[[Exception-Basics]]"
@@ -13,6 +13,7 @@ aliases:
   - Scanner
   - BufferedReader
 ---
+
 
 # Input / Output
 
@@ -65,6 +66,40 @@ Integer.parseInt(s)   Long.parseLong(s)   Double.parseDouble(s)
 >     }
 > }
 > ```
+
+## Reading patterns
+| Input format | Approach |
+|--------------|----------|
+| Single integer | `int n = Integer.parseInt(br.readLine().trim());` |
+| Array on one line | `split(" ")` + `Integer.parseInt` each |
+| Multiple test cases | outer `while ((line = br.readLine()) != null)` |
+| Large output | Batch in `StringBuilder`, print once |
+
+## Scanner vs BufferedReader
+| Criterion | Scanner | BufferedReader |
+|-----------|---------|----------------|
+| Ease of use | ✅ Simple token parsing | More manual parsing |
+| Speed | Slower | Faster (preferred for contests) |
+| Big input | May TLE | Handles large input |
+| `nextLine` gotchas | Yes (newline leftover) | No |
+
+## Complete contest template
+```java
+import java.io.*;
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        PrintWriter out = new PrintWriter(new BufferedOutputStream(System.out));
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        int n = Integer.parseInt(st.nextToken());
+        // solve
+        out.println(n);
+        out.flush();
+    }
+}
+```
 
 ## Related
 - [[Strings]] · [[Exception-Basics]] (why `throws IOException`) · [[IO-and-NIO]] (file I/O)

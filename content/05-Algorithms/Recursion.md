@@ -1,9 +1,10 @@
 ---
 type: concept
 tags:
+  - dsa/algo
   - dsa/algo/recursion
 difficulty: medium
-pattern: ""
+status: evergreen
 related:
   - "[[Backtracking]]"
   - "[[Divide-and-Conquer]]"
@@ -15,6 +16,7 @@ aliases:
   - Call stack
   - Recursion tree
 ---
+
 
 # Recursion
 

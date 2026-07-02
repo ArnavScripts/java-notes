@@ -1,12 +1,13 @@
 ---
 type: question
 tags:
+  - dsa/ds/strings
+  - dsa/pattern/sliding-window
   - practice
-  - medium
-  - string
-  - slidingwindow
+  - practice/medium
 difficulty: medium
 pattern: "[[Sliding-Window]]"
+status: evergreen
 source: "LeetCode 3"
 related:
   - "[[Sliding-Window]]"
@@ -16,6 +17,7 @@ aliases:
   - Longest Substring Without Repeating Characters
   - LSWithoutRepeating
 ---
+
 
 # Longest Substring Without Repeating Characters
 

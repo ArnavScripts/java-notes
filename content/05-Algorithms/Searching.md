@@ -1,9 +1,10 @@
 ---
 type: concept
 tags:
+  - dsa/algo
   - dsa/algo/searching
 difficulty: easy
-pattern: ""
+status: evergreen
 related:
   - "[[Arrays]]"
   - "[[BST]]"
@@ -14,6 +15,7 @@ aliases:
   - Binary Search
   - Linear Search
 ---
+
 
 # Searching
 

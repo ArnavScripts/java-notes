@@ -3,6 +3,7 @@ type: moc
 tags:
   - moc
   - dsa/pattern
+status: evergreen
 related:
   - "[[00-Index-MOC]]"
   - "[[05-Algorithms-MOC]]"
@@ -12,6 +13,7 @@ aliases:
   - Patterns MOC
   - Techniques MOC
 ---
+
 
 # Patterns & Techniques — MOC
 
@@ -56,14 +58,21 @@ The **pattern-recognition core** of DSA. Most interview/contest problems are ins
 
 ## Dataview: all pattern notes
 ```dataview
-TABLE difficulty, related as "Links"
+TABLE difficulty, status, related as "Links"
 WHERE file.folder = "06-Patterns-Techniques" AND type = "concept"
 SORT file.name
 ```
 
+## Dataview: thin pattern notes
+```dataview
+TABLE file.name as "Note", length(file.content) as "Chars"
+WHERE file.folder = "06-Patterns-Techniques" AND type = "concept" AND length(file.content) < 3500
+SORT length(file.content) ASC
+```
+
 ## Dataview: questions grouped by pattern
 ```dataview
-TABLE file.name as "Question", difficulty
+TABLE file.name as "Question", difficulty, source
 WHERE type = "question"
 GROUP BY pattern
 SORT pattern

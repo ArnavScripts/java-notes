@@ -3,6 +3,7 @@ type: moc
 tags:
   - moc
   - java
+status: evergreen
 related:
   - "[[01-Java-Syntax-MOC]]"
   - "[[02-OOPS-MOC]]"
@@ -15,6 +16,7 @@ aliases:
   - Home
   - Index
 ---
+
 
 # Java / OOPS / DS / DSA — Master Index
 
@@ -35,7 +37,7 @@ A practical, interlinked knowledge web. Start anywhere; every note links back to
 
 ## Dataview: all concept notes
 ```dataview
-TABLE difficulty, pattern, file.folder as "Section"
+TABLE difficulty, status, pattern, file.folder as "Section"
 WHERE type = "concept"
 SORT file.folder, file.name
 ```
@@ -49,12 +51,26 @@ SORT difficulty ASC, file.name
 
 ## Dataview: questions grouped by pattern
 ```dataview
-TABLE file.name as "Question", difficulty
+TABLE file.name as "Question", difficulty, source
 WHERE type = "question"
 GROUP BY pattern
 SORT pattern
 ```
 
+## Dataview: thin notes to expand
+```dataview
+TABLE file.folder as "Section", length(file.content) as "Chars"
+WHERE type = "concept" AND length(file.content) < 3000
+SORT length(file.content) ASC
+```
+
 ## Templates
 - [[Note-Template]] — for concepts
 - [[Question-Template]] — for practice problems
+- [[MOC-Template]] — for new sections
+
+## Canvas maps
+- [[Java-Learning-Roadmap.canvas]]
+- [[OOPS-Pillars.canvas]]
+- [[DSA-Pattern-Map.canvas]]
+- [[JVM-Memory-Model.canvas]]

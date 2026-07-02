@@ -1,12 +1,14 @@
 ---
 type: question
 tags:
+  - dsa/ds/graph
+  - dsa/pattern/topological-sort
   - practice
-  - medium
-  - graph
+  - practice/medium
   - topologicalsort
 difficulty: medium
 pattern: "[[Topological-Sort]]"
+status: evergreen
 source: "LeetCode 207"
 related:
   - "[[Topological-Sort]]"
@@ -15,6 +17,7 @@ related:
 aliases:
   - Course Schedule
 ---
+
 
 # Course Schedule
 

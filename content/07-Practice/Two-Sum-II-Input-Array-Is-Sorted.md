@@ -1,12 +1,13 @@
 ---
 type: question
 tags:
+  - dsa/ds/arrays
+  - dsa/pattern/two-pointers
   - practice
-  - easy
-  - array
-  - twopointers
+  - practice/easy
 difficulty: easy
 pattern: "[[Two-Pointers]]"
+status: evergreen
 source: "LeetCode 167"
 related:
   - "[[Two-Pointers]]"
@@ -15,6 +16,7 @@ related:
 aliases:
   - Two Sum II
 ---
+
 
 # Two Sum II — Input Array Is Sorted
 

@@ -1,9 +1,10 @@
 ---
 type: concept
 tags:
+  - dsa/algo
   - dsa/algo/complexity
 difficulty: easy
-pattern: ""
+status: evergreen
 related:
   - "[[Searching]]"
   - "[[Sorting]]"
@@ -14,6 +15,7 @@ aliases:
   - Time complexity
   - Space complexity
 ---
+
 
 # Complexity Analysis
 

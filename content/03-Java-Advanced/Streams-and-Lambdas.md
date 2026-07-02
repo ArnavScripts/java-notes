@@ -5,7 +5,7 @@ tags:
   - java/streams
   - java/lambda
 difficulty: medium
-pattern: ""
+status: evergreen
 related:
   - "[[Collections-Framework]]"
   - "[[Generics]]"
@@ -16,6 +16,7 @@ aliases:
   - Lambdas
   - Functional interfaces
 ---
+
 
 # Streams & Lambdas
 

@@ -1,8 +1,10 @@
 ---
 type: moc
 tags:
-  - moc
+  - dsa/ds
   - java/ds
+  - moc
+status: evergreen
 related:
   - "[[00-Index-MOC]]"
   - "[[03-Java-Advanced-MOC]]"
@@ -12,6 +14,7 @@ aliases:
   - DS MOC
   - Data Structures MOC
 ---
+
 
 # Data Structures — MOC
 
@@ -43,7 +46,14 @@ Containers that organize data for efficient operations. Every algorithm runs *on
 
 ## Dataview: this section
 ```dataview
-TABLE difficulty, related as "Links"
+TABLE difficulty, status, related as "Links"
 WHERE file.folder = "04-Data-Structures" AND type = "concept"
 SORT file.name
+```
+
+## Dataview: thin notes to expand
+```dataview
+TABLE file.name as "Note", length(file.content) as "Chars"
+WHERE file.folder = "04-Data-Structures" AND type = "concept" AND length(file.content) < 3000
+SORT length(file.content) ASC
 ```

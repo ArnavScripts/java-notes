@@ -3,6 +3,7 @@ type: moc
 tags:
   - practice
   - pattern-map
+status: evergreen
 related:
   - "[[07-Practice-MOC]]"
   - "[[06-Patterns-MOC]]"
@@ -13,6 +14,7 @@ aliases:
   - Pattern Question Map
   - Pattern to questions
 ---
+
 
 # Pattern → Question Map
 

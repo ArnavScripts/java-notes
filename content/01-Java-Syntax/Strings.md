@@ -4,7 +4,7 @@ tags:
   - java/syntax
   - java/strings
 difficulty: easy
-pattern: ""
+status: evergreen
 related:
   - "[[Variables-and-Data-Types]]"
   - "[[Strings-DS]]"
@@ -13,6 +13,7 @@ aliases:
   - Java String
   - StringBuilder
 ---
+
 
 # Strings
 

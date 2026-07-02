@@ -2,11 +2,16 @@
 type: concept
 tags:
   - template
-difficulty:
-pattern:
-related: []
-aliases: []
+  - java/syntax
+difficulty: easy
+pattern: "[[Two-Pointers]]"
+status: seedling
+related:
+  - "[[Related-Note]]"
+aliases:
+  - "Short name"
 ---
+
 
 # {{title}}
 

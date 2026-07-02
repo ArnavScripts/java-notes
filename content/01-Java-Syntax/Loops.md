@@ -1,16 +1,17 @@
 ---
 type: concept
 tags:
-  - java/syntax
-  - java/loops
+- java/syntax
+- java/loops
 difficulty: easy
-pattern: ""
+status: evergreen
 related:
-  - "[[Arrays-Basics]]"
-  - "[[Control-Flow]]"
-  - "[[Recursion]]"
-aliases: []
+- '[[Arrays-Basics]]'
+- '[[Control-Flow]]'
+- '[[Recursion]]'
 ---
+
+
 
 # Loops
 
@@ -57,6 +58,32 @@ while (true) {
 > - Off-by-one: `<` vs `<=` on the bound. Decide inclusive/exclusive up front.
 > - Enhanced-for can't modify the array via the loop variable (it's a copy of the value) and gives no index.
 > - `while (i < n);` with a stray `;` is an empty-body infinite loop.
+
+## Loop selection guide
+```mermaid
+flowchart TD
+    A["Need to repeat?"] --> B{"Know iteration count?"}
+    B -->|Yes| C["for"]
+    B -->|No| D{"Must run at least once?"}
+    D -->|Yes| E["do-while"]
+    D -->|No| F["while"]
+    C --> G["Use index or counter"]
+    E --> H["Use post-test condition"]
+    F --> I["Use pre-test condition"]
+```
+
+## Loop complexity patterns
+| Loop shape | Complexity | Example |
+|------------|------------|---------|
+| Single `for i` | O(n) | Linear scan |
+| Nested `for i, for j` | O(n²) | All pairs |
+| `while (n > 0) n /= 2` | O(log n) | Binary reduction |
+| Outer `for` + inner `while` shrinking window | O(n) | [[Sliding-Window]] |
+
+## When loops beat recursion
+- Iteration uses O(1) stack; recursion uses O(depth) stack.
+- For deep structures (linked lists, trees), iteration avoids `StackOverflowError`.
+- See [[Recursion]] for when recursion is clearer.
 
 ## Practice questions
 - FizzBuzz (1..100, multiples of 3/5)

@@ -1,0 +1,88 @@
+{
+  "nodes": [
+    {
+      "id": "5d8a0476-8f82-483d-aa0c-da2962943c73",
+      "x": 0,
+      "y": -250,
+      "width": 300,
+      "height": 80,
+      "type": "text",
+      "color": "1",
+      "text": "JVM Memory Model"
+    },
+    {
+      "id": "9bd30504-8c5b-4cf2-a1db-f525e4f0bd8a",
+      "x": -300,
+      "y": -80,
+      "width": 220,
+      "height": 80,
+      "type": "file",
+      "color": "2",
+      "file": "JVM-and-Memory",
+      "text": "**Heap**\nobjects & arrays"
+    },
+    {
+      "id": "8bb57e40-6df0-42a1-959e-a59473cfb20c",
+      "x": 0,
+      "y": -80,
+      "width": 220,
+      "height": 80,
+      "type": "file",
+      "color": "2",
+      "file": "JVM-and-Memory",
+      "text": "**Stack**\nframes & locals"
+    },
+    {
+      "id": "9e49679c-182d-448d-9e5e-9f3ef1b05526",
+      "x": 300,
+      "y": -80,
+      "width": 220,
+      "height": 80,
+      "type": "file",
+      "color": "2",
+      "file": "JVM-and-Memory",
+      "text": "**Metaspace**\nclass metadata"
+    },
+    {
+      "id": "3a3731d7-5e24-4731-b18a-97312144cb81",
+      "x": 0,
+      "y": 80,
+      "width": 500,
+      "height": 120,
+      "type": "text",
+      "color": "4",
+      "text": "**Object lifecycle**\nSource (.java) \u2192 javac \u2192 Bytecode (.class) \u2192 ClassLoader \u2192 Metaspace\nnew \u2192 Heap allocation \u2192 constructor \u2192 GC when unreachable"
+    }
+  ],
+  "edges": [
+    {
+      "id": "9b7098dc-65d3-435c-a8ac-d0edf46e428d",
+      "fromNode": "5d8a0476-8f82-483d-aa0c-da2962943c73",
+      "fromSide": "bottom",
+      "toNode": "9bd30504-8c5b-4cf2-a1db-f525e4f0bd8a",
+      "toSide": "top"
+    },
+    {
+      "id": "34d84662-252b-4101-bca7-ca4704da547f",
+      "fromNode": "5d8a0476-8f82-483d-aa0c-da2962943c73",
+      "fromSide": "bottom",
+      "toNode": "8bb57e40-6df0-42a1-959e-a59473cfb20c",
+      "toSide": "top"
+    },
+    {
+      "id": "89aaf0a0-441d-457d-ab25-7ad039a8ec1a",
+      "fromNode": "5d8a0476-8f82-483d-aa0c-da2962943c73",
+      "fromSide": "bottom",
+      "toNode": "9e49679c-182d-448d-9e5e-9f3ef1b05526",
+      "toSide": "top"
+    },
+    {
+      "id": "90bb187f-5266-4dda-a910-a151c15069b1",
+      "fromNode": "9bd30504-8c5b-4cf2-a1db-f525e4f0bd8a",
+      "fromSide": "bottom",
+      "toNode": "3a3731d7-5e24-4731-b18a-97312144cb81",
+      "toSide": "top",
+      "label": "allocates"
+    }
+  ]
+}

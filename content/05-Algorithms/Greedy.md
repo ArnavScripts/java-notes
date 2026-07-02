@@ -1,9 +1,10 @@
 ---
 type: concept
 tags:
+  - dsa/algo
   - dsa/algo/greedy
 difficulty: medium
-pattern: ""
+status: evergreen
 related:
   - "[[Sorting]]"
   - "[[Heap]]"
@@ -13,6 +14,7 @@ aliases:
   - Greedy
   - Greedy algorithm
 ---
+
 
 # Greedy
 

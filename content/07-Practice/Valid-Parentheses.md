@@ -1,12 +1,14 @@
 ---
 type: question
 tags:
+  - dsa/ds/stack
+  - dsa/ds/strings
+  - dsa/pattern/stack
   - practice
-  - easy
-  - stack
-  - string
+  - practice/easy
 difficulty: easy
 pattern: "[[Stack]]"
+status: evergreen
 source: "LeetCode 20"
 related:
   - "[[Stack]]"
@@ -14,6 +16,7 @@ related:
 aliases:
   - Valid Parentheses
 ---
+
 
 # Valid Parentheses
 

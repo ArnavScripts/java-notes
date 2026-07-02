@@ -1,12 +1,14 @@
 ---
 type: question
 tags:
-  - practice
-  - easy
-  - linkedlist
+  - dsa/ds/linked-list
+  - dsa/pattern/fast-slow-pointers
   - fastslow
+  - practice
+  - practice/easy
 difficulty: easy
 pattern: "[[Fast-Slow-Pointers]]"
+status: evergreen
 source: "LeetCode 141"
 related:
   - "[[Fast-Slow-Pointers]]"
@@ -16,6 +18,7 @@ aliases:
   - Linked List Cycle
   - Has Cycle
 ---
+
 
 # Linked List Cycle
 

@@ -1,12 +1,13 @@
 ---
 type: question
 tags:
+  - dsa/ds/tree
+  - dsa/pattern/tree-dfs
   - practice
-  - easy
-  - tree
-  - dfs
+  - practice/easy
 difficulty: easy
 pattern: "[[Tree-DFS]]"
+status: evergreen
 source: "LeetCode 104"
 related:
   - "[[Tree-DFS]]"
@@ -16,6 +17,7 @@ aliases:
   - Maximum Depth of Binary Tree
   - Max Depth
 ---
+
 
 # Maximum Depth of Binary Tree
 

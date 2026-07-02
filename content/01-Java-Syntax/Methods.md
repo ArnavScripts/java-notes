@@ -4,7 +4,7 @@ tags:
   - java/syntax
   - java/methods
 difficulty: easy
-pattern: ""
+status: evergreen
 related:
   - "[[Variables-and-Data-Types]]"
   - "[[static-Keyword]]"
@@ -13,6 +13,7 @@ aliases:
   - Functions Java
   - Method Overloading
 ---
+
 
 # Methods
 
@@ -62,6 +63,43 @@ static int fact(int n) { return n <= 1 ? 1 : n * fact(n - 1); }
 > - Forgetting `return` on a non-void path → compile error.
 > - Confusing pass-by-value with pass-by-reference (Java has no ref params).
 > - Overload ambiguity: `max(5, 5L)` may need an explicit cast.
+
+## Pass-by-value visualized
+```mermaid
+flowchart LR
+    subgraph Caller["Caller stack"]
+        A["int x = 5"]
+        B["int[] arr"]
+        B -->|ref| O["[1,2,3]"]
+    end
+    subgraph Callee["Callee stack"]
+        A2["int x = 5\n(copy)"]
+        B2["int[] arr\n(copy of ref)"]
+        B2 -->|same ref| O
+    end
+    A -->|copied| A2
+    B -->|copied| B2
+```
+- Primitives: the copy is independent.
+- References: the copy points to the same object — mutations are visible, reassignments are not.
+
+## Method signature rules
+| Element | Part of signature? | Notes |
+|---------|-------------------|-------|
+| Name | ✅ Yes | Must be unique with params |
+| Parameter types | ✅ Yes | Order matters |
+| Parameter names | ❌ No | Not part of signature |
+| Return type | ❌ No | Can't overload by return alone |
+| Exceptions | ❌ No | Can change in override |
+
+## Overloading vs overriding
+| Feature | Overloading | Overriding |
+|---------|-------------|------------|
+| Where? | Same class / subclass | Subclass |
+| Signature? | Must differ | Must match |
+| Return type? | Can differ | Must be covariant |
+| Binding? | Compile-time | Runtime |
+| `static`? | Can overload | Can't override (hides) |
 
 ## Pattern recognition cues
 - Repeated logic with varying inputs → extract a method.

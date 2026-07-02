@@ -4,7 +4,7 @@ tags:
   - java/oops
   - java/inner
 difficulty: medium
-pattern: ""
+status: evergreen
 related:
   - "[[static-Keyword]]"
   - "[[Classes-and-Objects]]"
@@ -13,6 +13,7 @@ aliases:
   - Nested classes
   - Anonymous class
 ---
+
 
 # Inner Classes
 
