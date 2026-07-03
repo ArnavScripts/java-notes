@@ -1,17 +1,18 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/hard
-  - dsa/pattern/cyclic-sort
+- dsa/pattern/cyclic-sort
+- practice
+- practice/hard
 difficulty: hard
-pattern: "[[Cyclic-Sort]]"
-source: ""
+pattern: '[[Cyclic-Sort]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - First Missing Positive
+- First Missing Positive
 ---
+
 
 # First Missing Positive
 

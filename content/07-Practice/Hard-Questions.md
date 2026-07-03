@@ -38,9 +38,34 @@ Multi-pattern, heavy edge cases, or non-obvious optimizations. Often the "hard" 
 ## Bitwise / Math
 - [[Maximum-XOR-of-Two-Numbers-in-an-Array]] · [[Find-the-Duplicate-Number]] (O(1) space)
 
-## Dataview
-```dataview
-TABLE pattern, source
-WHERE type = "question" AND difficulty = "hard"
-SORT file.name
-```
+## All hard questions
+| Question | Pattern | Source |
+| --- | --- | --- |
+| [[Binary-Tree-Maximum-Path-Sum]] | [[Tree-DFS]] |  |
+| [[Burst-Balloons]] | [[DP]] |  |
+| [[Cherry-Pickup]] |  |  |
+| [[Count-of-Smaller-Numbers-After-Self]] | [[Divide-and-Conquer]] |  |
+| [[Critical-Connections-in-a-Network]] |  |  |
+| [[Distinct-Subsequences]] |  |  |
+| [[Edit-Distance]] | [[DP]] | LeetCode 72 |
+| [[Find-Median-from-Data-Stream]] | [[K-Way-Merge]] |  |
+| [[Find-the-Duplicate-Number]] | [[Fast-Slow-Pointers]] |  |
+| [[First-Missing-Positive]] | [[Cyclic-Sort]] |  |
+| [[Largest-Rectangle-in-Histogram]] | [[Monotonic-Stack]] | LeetCode 84 |
+| [[Maximal-Rectangle]] | [[Monotonic-Stack]] |  |
+| [[Maximum-XOR-of-Two-Numbers-in-an-Array]] | [[Bit-Manipulation]] |  |
+| [[Merge-K-Sorted-Lists]] | [[K-Way-Merge]] | LeetCode 23 |
+| [[N-Queens]] | [[Backtracking]] | LeetCode 51 |
+| [[Palindrome-Linked-List]] | [[Linked-List]] |  |
+| [[Palindrome-Partitioning]] |  |  |
+| [[Palindrome-Partitioning-II]] | [[DP]] |  |
+| [[Regular-Expression-Matching]] |  |  |
+| [[Reverse-Nodes-in-k-Group]] | [[In-Place-Reversal]] |  |
+| [[Serialize-and-Deserialize-Binary-Tree]] | [[Tree-DFS]] |  |
+| [[Sliding-Window-Maximum]] | [[Sliding-Window]] |  |
+| [[Smallest-Range-Covering-Elements-from-K-Lists]] | [[K-Way-Merge]] |  |
+| [[Sudoku-Solver]] | [[Backtracking]] |  |
+| [[Sum-of-Subarray-Minimums]] | [[Monotonic-Stack]] |  |
+| [[Trapping-Rain-Water]] | [[Two-Pointers]] | LeetCode 42 |
+| [[Word-Ladder-II]] |  |  |
+| [[Word-Search-II]] | [[Backtracking]] |  |

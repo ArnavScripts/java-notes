@@ -1,17 +1,17 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/medium
-  - dsa/pattern/tbd
+- practice
+- practice/medium
 difficulty: medium
-pattern: "[[]]"
-source: ""
+source: ''
 status: seedling
 related: []
 aliases:
-  - Path Sum II
+- Path Sum II
 ---
+
+
 
 # Path Sum II
 

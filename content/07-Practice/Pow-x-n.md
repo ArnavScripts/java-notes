@@ -1,17 +1,18 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/medium
-  - dsa/pattern/prefix-sum
+- dsa/pattern/math
+- practice
+- practice/medium
 difficulty: medium
-pattern: "[[Prefix-Sum]]"
-source: ""
+pattern: '[[Math]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - Pow x n
+- Pow x n
 ---
+
 
 # Pow x n
 

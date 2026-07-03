@@ -1,23 +1,24 @@
 ---
 type: question
 tags:
-  - dsa/algo/backtracking
-  - dsa/pattern/subsets
-  - practice
-  - practice/medium
-  - subsets
+- dsa/algo/backtracking
+- dsa/pattern/subsets
+- practice
+- practice/medium
+- subsets
 difficulty: medium
-pattern: "[[Subsets]]"
+pattern: '[[06-Patterns-Techniques/Subsets|Subsets]]'
 status: evergreen
-source: "LeetCode 78"
+source: LeetCode 78
 related:
-  - "[[Subsets]]"
-  - "[[Backtracking]]"
-  - "[[Subsets-II]]"
+- '[[Subsets]]'
+- '[[Backtracking]]'
+- '[[Subsets-II]]'
 aliases:
-  - Subsets
-  - Power Set
+- Subsets
+- Power Set
 ---
+
 
 
 # Subsets

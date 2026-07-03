@@ -31,16 +31,28 @@ The language foundations. Master these before OOPS and DSA in Java.
 > [!tip] Prerequisite chain
 > Intro → Types → Operators → Control Flow → Loops → Arrays → Methods → Strings → I/O → Exceptions → [[02-OOPS-MOC|OOPS]]
 
-## Dataview: this section
-```dataview
-TABLE difficulty, status, related as "Links"
-WHERE file.folder = "01-Java-Syntax" AND type = "concept"
-SORT file.name
-```
+## Notes in this section
+| Note | Difficulty | Status |
+| --- | --- | --- |
+| [[Arrays-Basics]] | easy | evergreen |
+| [[Control-Flow]] | easy | evergreen |
+| [[Exception-Basics]] | easy | evergreen |
+| [[Input-Output]] | easy | evergreen |
+| [[Intro-and-Setup]] | easy | evergreen |
+| [[Loops]] | easy | evergreen |
+| [[Methods]] | easy | evergreen |
+| [[Operators]] | easy | evergreen |
+| [[Strings]] | easy | evergreen |
+| [[Variables-and-Data-Types]] | easy | evergreen |
 
-## Dataview: thin notes to expand
-```dataview
-TABLE file.name as "Note", length(file.content) as "Chars"
-WHERE file.folder = "01-Java-Syntax" AND type = "concept" AND length(file.content) < 3000
-SORT length(file.content) ASC
-```
+## Thin notes to expand
+| Note | Chars |
+| --- | --- |
+| [[Intro-and-Setup]] | 2025 |
+| [[Control-Flow]] | 2176 |
+| [[Strings]] | 2258 |
+| [[Operators]] | 2266 |
+| [[Exception-Basics]] | 2480 |
+| [[Loops]] | 2609 |
+| [[Arrays-Basics]] | 2655 |
+| [[Variables-and-Data-Types]] | 2867 |

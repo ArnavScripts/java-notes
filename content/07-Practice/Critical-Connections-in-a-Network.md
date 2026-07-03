@@ -1,17 +1,17 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/hard
-  - dsa/pattern/tbd
+- practice
+- practice/hard
 difficulty: hard
-pattern: "[[]]"
-source: ""
+source: ''
 status: seedling
 related: []
 aliases:
-  - Critical Connections in a Network
+- Critical Connections in a Network
 ---
+
+
 
 # Critical Connections in a Network
 

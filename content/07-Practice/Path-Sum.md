@@ -1,17 +1,18 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/medium
-  - dsa/pattern/tree-dfs
+- dsa/pattern/tree-dfs
+- practice
+- practice/medium
 difficulty: medium
-pattern: "[[Tree-DFS]]"
-source: ""
+pattern: '[[Tree-DFS]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - Path Sum
+- Path Sum
 ---
+
 
 # Path Sum
 

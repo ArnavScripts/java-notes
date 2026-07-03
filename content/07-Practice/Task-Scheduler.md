@@ -1,17 +1,18 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/medium
-  - dsa/pattern/prefix-sum
+- dsa/pattern/greedy
+- practice
+- practice/medium
 difficulty: medium
-pattern: "[[Prefix-Sum]]"
-source: ""
+pattern: '[[Greedy]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - Task Scheduler
+- Task Scheduler
 ---
+
 
 # Task Scheduler
 

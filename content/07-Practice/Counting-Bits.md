@@ -1,17 +1,18 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/medium
-  - dsa/pattern/prefix-sum
+- dsa/pattern/bit-manipulation
+- practice
+- practice/medium
 difficulty: medium
-pattern: "[[Prefix-Sum]]"
-source: ""
+pattern: '[[Bit-Manipulation]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - Counting Bits
+- Counting Bits
 ---
+
 
 # Counting Bits
 

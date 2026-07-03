@@ -1,17 +1,18 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/medium
-  - dsa/pattern/prefix-sum
+- dsa/pattern/searching
+- practice
+- practice/medium
 difficulty: medium
-pattern: "[[Prefix-Sum]]"
-source: ""
+pattern: '[[Searching]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - Binary Search
+- Binary Search
 ---
+
 
 # Binary Search
 

@@ -1,17 +1,19 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/easy
-  - dsa/pattern/tbd
+- dsa/pattern/hashmap
+- practice
+- practice/easy
 difficulty: easy
-pattern: "[[]]"
-source: ""
+pattern: '[[HashMap]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - First Unique Character in a String
+- First Unique Character in a String
 ---
+
+
 
 # First Unique Character in a String
 

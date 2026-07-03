@@ -1,17 +1,19 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/easy
-  - dsa/pattern/tbd
+- dsa/pattern/linked-list
+- practice
+- practice/easy
 difficulty: easy
-pattern: "[[]]"
-source: ""
+pattern: '[[Linked-List]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - Merge Two Sorted Lists
+- Merge Two Sorted Lists
 ---
+
+
 
 # Merge Two Sorted Lists
 

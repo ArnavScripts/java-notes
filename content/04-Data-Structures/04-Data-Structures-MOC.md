@@ -44,16 +44,26 @@ Containers that organize data for efficient operations. Every algorithm runs *on
 > | Heap (peek) | O(1) | O(n) | O(log n) | O(log n) | O(n) |
 > ⌀ amortized, * at a known node
 
-## Dataview: this section
-```dataview
-TABLE difficulty, status, related as "Links"
-WHERE file.folder = "04-Data-Structures" AND type = "concept"
-SORT file.name
-```
+## Notes in this section
+| Note | Difficulty | Status |
+| --- | --- | --- |
+| [[Arrays]] | easy | evergreen |
+| [[BST]] | hard | evergreen |
+| [[Disjoint-Set]] | hard | evergreen |
+| [[Graph]] | hard | evergreen |
+| [[HashMap]] | medium | evergreen |
+| [[HashSet]] | easy | evergreen |
+| [[Heap]] | medium | evergreen |
+| [[Linked-List]] | medium | evergreen |
+| [[Queue]] | easy | evergreen |
+| [[Stack]] | easy | evergreen |
+| [[Strings-DS]] | easy | evergreen |
+| [[Trie]] | hard | evergreen |
 
-## Dataview: thin notes to expand
-```dataview
-TABLE file.name as "Note", length(file.content) as "Chars"
-WHERE file.folder = "04-Data-Structures" AND type = "concept" AND length(file.content) < 3000
-SORT length(file.content) ASC
-```
+## Thin notes to expand
+| Note | Chars |
+| --- | --- |
+| [[Stack]] | 2696 |
+| [[HashSet]] | 2796 |
+| [[Queue]] | 2957 |
+| [[Arrays]] | 2962 |

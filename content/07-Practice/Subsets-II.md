@@ -1,17 +1,19 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/medium
-  - dsa/pattern/subsets
+- dsa/pattern/subsets
+- practice
+- practice/medium
 difficulty: medium
-pattern: "[[Subsets]]"
-source: ""
+pattern: '[[06-Patterns-Techniques/Subsets|Subsets]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - Subsets II
+- Subsets II
 ---
+
+
 
 # Subsets II
 

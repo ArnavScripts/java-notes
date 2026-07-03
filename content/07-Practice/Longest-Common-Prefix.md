@@ -1,17 +1,19 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/easy
-  - dsa/pattern/tbd
+- dsa/pattern/stack
+- practice
+- practice/easy
 difficulty: easy
-pattern: "[[]]"
-source: ""
+pattern: '[[Stack]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - Longest Common Prefix
+- Longest Common Prefix
 ---
+
+
 
 # Longest Common Prefix
 

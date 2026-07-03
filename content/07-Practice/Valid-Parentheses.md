@@ -1,21 +1,23 @@
 ---
 type: question
 tags:
-  - dsa/ds/stack
-  - dsa/ds/strings
-  - dsa/pattern/stack
-  - practice
-  - practice/easy
+- dsa/ds/stack
+- dsa/ds/strings
+- dsa/pattern/stack
+- practice
+- practice/easy
 difficulty: easy
-pattern: "[[Stack]]"
+pattern: '[[Stack]]'
 status: evergreen
-source: "LeetCode 20"
+source: LeetCode 20
 related:
-  - "[[Stack]]"
-  - "[[Strings-DS]]"
+- '[[Stack]]'
+- '[[Strings-DS]]'
 aliases:
-  - Valid Parentheses
+- Valid Parentheses
 ---
+
+
 
 
 # Valid Parentheses

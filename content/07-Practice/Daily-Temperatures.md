@@ -1,17 +1,18 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/medium
-  - dsa/pattern/monotonic-stack
+- dsa/pattern/monotonic-stack
+- practice
+- practice/medium
 difficulty: medium
-pattern: "[[Monotonic-Stack]]"
-source: ""
+pattern: '[[Monotonic-Stack]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - Daily Temperatures
+- Daily Temperatures
 ---
+
 
 # Daily Temperatures
 

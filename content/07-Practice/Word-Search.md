@@ -1,17 +1,18 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/medium
-  - dsa/pattern/prefix-sum
+- dsa/pattern/backtracking
+- practice
+- practice/medium
 difficulty: medium
-pattern: "[[Prefix-Sum]]"
-source: ""
+pattern: '[[Backtracking]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - Word Search
+- Word Search
 ---
+
 
 # Word Search
 

@@ -1,22 +1,24 @@
 ---
 type: question
 tags:
-  - dsa/ds/arrays
-  - dsa/ds/hashmap
-  - dsa/pattern/hashmap
-  - practice
-  - practice/easy
+- dsa/ds/arrays
+- dsa/ds/hashmap
+- dsa/pattern/two-pointers
+- practice
+- practice/easy
 difficulty: easy
-pattern: "[[HashMap]]"
+pattern: '[[Two-Pointers]]'
 status: evergreen
-source: "LeetCode 1"
+source: LeetCode 1
 related:
-  - "[[HashMap]]"
-  - "[[Two-Pointers]]"
-  - "[[Arrays]]"
+- '[[HashMap]]'
+- '[[Two-Pointers]]'
+- '[[Arrays]]'
 aliases:
-  - Two Sum
+- Two Sum
 ---
+
+
 
 
 # Two Sum

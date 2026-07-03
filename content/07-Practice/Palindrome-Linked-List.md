@@ -1,17 +1,19 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/hard
-  - dsa/pattern/tbd
+- dsa/pattern/linked-list
+- practice
+- practice/hard
 difficulty: hard
-pattern: "[[]]"
-source: ""
+pattern: '[[Linked-List]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - Palindrome Linked List
+- Palindrome Linked List
 ---
+
+
 
 # Palindrome Linked List
 

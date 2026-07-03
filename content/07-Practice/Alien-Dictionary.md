@@ -1,17 +1,18 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/medium
-  - dsa/pattern/topological-sort
+- dsa/pattern/topological-sort
+- practice
+- practice/medium
 difficulty: medium
-pattern: "[[Topological-Sort]]"
-source: ""
+pattern: '[[Topological-Sort]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - Alien Dictionary
+- Alien Dictionary
 ---
+
 
 # Alien Dictionary
 

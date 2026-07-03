@@ -1,17 +1,18 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/hard
-  - dsa/pattern/cyclic-sort
+- dsa/pattern/fast-slow-pointers
+- practice
+- practice/hard
 difficulty: hard
-pattern: "[[Cyclic-Sort]]"
-source: ""
+pattern: '[[Fast-Slow-Pointers]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - Find the Duplicate Number
+- Find the Duplicate Number
 ---
+
 
 # Find the Duplicate Number
 

@@ -1,17 +1,18 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/hard
-  - dsa/pattern/in-place-reversal
+- dsa/pattern/in-place-reversal
+- practice
+- practice/hard
 difficulty: hard
-pattern: "[[In-Place-Reversal]]"
-source: ""
+pattern: '[[In-Place-Reversal]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - Reverse Nodes in k Group
+- Reverse Nodes in k Group
 ---
+
 
 # Reverse Nodes in k Group
 

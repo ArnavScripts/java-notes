@@ -1,17 +1,19 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/medium
-  - dsa/pattern/prefix-sum
+- dsa/pattern/subsets
+- practice
+- practice/medium
 difficulty: medium
-pattern: "[[Prefix-Sum]]"
-source: ""
+pattern: '[[06-Patterns-Techniques/Subsets|Subsets]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - Permutations
+- Permutations
 ---
+
+
 
 # Permutations
 

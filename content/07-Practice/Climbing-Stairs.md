@@ -1,17 +1,18 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/easy
-  - dsa/pattern/prefix-sum
+- dsa/pattern/dp
+- practice
+- practice/easy
 difficulty: easy
-pattern: "[[Prefix-Sum]]"
-source: ""
+pattern: '[[DP]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - Climbing Stairs
+- Climbing Stairs
 ---
+
 
 # Climbing Stairs
 

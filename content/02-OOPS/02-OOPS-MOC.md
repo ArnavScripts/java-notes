@@ -35,16 +35,35 @@ Object-Oriented Programming: model the world as interacting objects. Four pillar
 > [!tip] Pillars map
 > [[Encapsulation]] (bundle+protect) · [[Inheritance]] (reuse) · [[Polymorphism]] (one interface, many forms) · [[Abstraction-and-Interfaces|Abstraction]] (expose essentials, hide details)
 
-## Dataview: this section
-```dataview
-TABLE difficulty, status, related as "Links"
-WHERE file.folder = "02-OOPS" AND type = "concept"
-SORT file.name
-```
+## Notes in this section
+| Note | Difficulty | Status |
+| --- | --- | --- |
+| [[Abstraction-and-Interfaces]] | medium | evergreen |
+| [[Classes-and-Objects]] | easy | evergreen |
+| [[Constructors]] | easy | evergreen |
+| [[Encapsulation]] | easy | evergreen |
+| [[Enums]] | medium | evergreen |
+| [[Inheritance]] | easy | evergreen |
+| [[Inner-Classes]] | medium | evergreen |
+| [[Object-Class]] | medium | evergreen |
+| [[Polymorphism]] | medium | evergreen |
+| [[SOLID-Principles]] | medium | evergreen |
+| [[final-Keyword]] | easy | evergreen |
+| [[static-Keyword]] | easy | evergreen |
+| [[this-Keyword]] | easy | evergreen |
 
-## Dataview: thin notes to expand
-```dataview
-TABLE file.name as "Note", length(file.content) as "Chars"
-WHERE file.folder = "02-OOPS" AND type = "concept" AND length(file.content) < 3000
-SORT length(file.content) ASC
-```
+## Thin notes to expand
+| Note | Chars |
+| --- | --- |
+| [[Classes-and-Objects]] | 1619 |
+| [[this-Keyword]] | 1998 |
+| [[Enums]] | 2248 |
+| [[Polymorphism]] | 2256 |
+| [[static-Keyword]] | 2454 |
+| [[Inner-Classes]] | 2508 |
+| [[SOLID-Principles]] | 2560 |
+| [[Inheritance]] | 2584 |
+| [[Object-Class]] | 2697 |
+| [[Encapsulation]] | 2838 |
+| [[Constructors]] | 2855 |
+| [[Abstraction-and-Interfaces]] | 2891 |

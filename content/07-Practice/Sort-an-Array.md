@@ -1,17 +1,18 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/medium
-  - dsa/pattern/prefix-sum
+- dsa/pattern/divide-and-conquer
+- practice
+- practice/medium
 difficulty: medium
-pattern: "[[Prefix-Sum]]"
-source: ""
+pattern: '[[Divide-and-Conquer]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - Sort an Array
+- Sort an Array
 ---
+
 
 # Sort an Array
 

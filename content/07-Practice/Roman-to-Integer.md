@@ -1,17 +1,18 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/easy
-  - dsa/pattern/prefix-sum
+- dsa/pattern/math
+- practice
+- practice/easy
 difficulty: easy
-pattern: "[[Prefix-Sum]]"
-source: ""
+pattern: '[[Math]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - Roman to Integer
+- Roman to Integer
 ---
+
 
 # Roman to Integer
 

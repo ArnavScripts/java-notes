@@ -1,17 +1,18 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/medium
-  - dsa/pattern/tree-bfs
+- dsa/pattern/tree-bfs
+- practice
+- practice/medium
 difficulty: medium
-pattern: "[[Tree-BFS]]"
-source: ""
+pattern: '[[Tree-BFS]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - Populating Next Right Pointers
+- Populating Next Right Pointers
 ---
+
 
 # Populating Next Right Pointers
 

@@ -1,17 +1,18 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/medium
-  - dsa/pattern/prefix-sum
+- dsa/pattern/prefix-sum
+- practice
+- practice/medium
 difficulty: medium
-pattern: "[[Prefix-Sum]]"
-source: ""
+pattern: '[[Prefix-Sum]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - Continuous Subarray Sum
+- Continuous Subarray Sum
 ---
+
 
 # Continuous Subarray Sum
 

@@ -1,17 +1,18 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/hard
-  - dsa/pattern/tree-dfs
+- dsa/pattern/tree-dfs
+- practice
+- practice/hard
 difficulty: hard
-pattern: "[[Tree-DFS]]"
-source: ""
+pattern: '[[Tree-DFS]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - Serialize and Deserialize Binary Tree
+- Serialize and Deserialize Binary Tree
 ---
+
 
 # Serialize and Deserialize Binary Tree
 

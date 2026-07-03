@@ -1,17 +1,19 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/medium
-  - dsa/pattern/tbd
+- dsa/pattern/linked-list
+- practice
+- practice/medium
 difficulty: medium
-pattern: "[[]]"
-source: ""
+pattern: '[[Linked-List]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - Remove Nth Node From End
+- Remove Nth Node From End
 ---
+
+
 
 # Remove Nth Node From End
 

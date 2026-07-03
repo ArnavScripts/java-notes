@@ -1,17 +1,19 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/medium
-  - dsa/pattern/tbd
+- dsa/pattern/prefix-sum
+- practice
+- practice/medium
 difficulty: medium
-pattern: "[[]]"
-source: ""
+pattern: '[[Prefix-Sum]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - Top K Frequent Elements
+- Top K Frequent Elements
 ---
+
+
 
 # Top K Frequent Elements
 

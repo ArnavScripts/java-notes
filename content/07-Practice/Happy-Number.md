@@ -1,17 +1,18 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/easy
-  - dsa/pattern/fast-slow-pointers
+- dsa/pattern/fast-slow-pointers
+- practice
+- practice/easy
 difficulty: easy
-pattern: "[[Fast-Slow-Pointers]]"
-source: ""
+pattern: '[[Fast-Slow-Pointers]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - Happy Number
+- Happy Number
 ---
+
 
 # Happy Number
 

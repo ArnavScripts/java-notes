@@ -1,17 +1,19 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/easy
-  - dsa/pattern/tbd
+- dsa/pattern/two-pointers
+- practice
+- practice/easy
 difficulty: easy
-pattern: "[[]]"
-source: ""
+pattern: '[[Two-Pointers]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - Best Time to Buy and Sell Stock
+- Best Time to Buy and Sell Stock
 ---
+
+
 
 # Best Time to Buy and Sell Stock
 

@@ -1,17 +1,18 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/hard
-  - dsa/pattern/k-way-merge
+- dsa/pattern/k-way-merge
+- practice
+- practice/hard
 difficulty: hard
-pattern: "[[K-Way-Merge]]"
-source: ""
+pattern: '[[K-Way-Merge]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - Smallest Range Covering Elements from K Lists
+- Smallest Range Covering Elements from K Lists
 ---
+
 
 # Smallest Range Covering Elements from K Lists
 

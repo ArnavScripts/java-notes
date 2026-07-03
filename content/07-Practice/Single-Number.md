@@ -1,17 +1,18 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/easy
-  - dsa/pattern/prefix-sum
+- dsa/pattern/bit-manipulation
+- practice
+- practice/easy
 difficulty: easy
-pattern: "[[Prefix-Sum]]"
-source: ""
+pattern: '[[Bit-Manipulation]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - Single Number
+- Single Number
 ---
+
 
 # Single Number
 

@@ -1,17 +1,18 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/hard
-  - dsa/pattern/monotonic-stack
+- dsa/pattern/monotonic-stack
+- practice
+- practice/hard
 difficulty: hard
-pattern: "[[Monotonic-Stack]]"
-source: ""
+pattern: '[[Monotonic-Stack]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - Maximal Rectangle
+- Maximal Rectangle
 ---
+
 
 # Maximal Rectangle
 

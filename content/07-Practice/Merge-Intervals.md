@@ -1,22 +1,23 @@
 ---
 type: question
 tags:
-  - dsa/algo/sorting
-  - dsa/pattern/merge-intervals
-  - intervals
-  - practice
-  - practice/medium
+- dsa/algo/sorting
+- dsa/pattern/merge-intervals
+- intervals
+- practice
+- practice/medium
 difficulty: medium
-pattern: "[[Merge-Intervals]]"
+pattern: '[[06-Patterns-Techniques/Merge-Intervals|Merge-Intervals]]'
 status: evergreen
-source: "LeetCode 56"
+source: LeetCode 56
 related:
-  - "[[Merge-Intervals]]"
-  - "[[Sorting]]"
-  - "[[Insert-Interval]]"
+- '[[Merge-Intervals]]'
+- '[[Sorting]]'
+- '[[Insert-Interval]]'
 aliases:
-  - Merge Intervals
+- Merge Intervals
 ---
+
 
 
 # Merge Intervals

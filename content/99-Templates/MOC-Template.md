@@ -19,12 +19,13 @@ One-paragraph map of this section: what it covers and why it matters.
 > [!tip] Prerequisite chain or mental model
 > Concept A → Concept B → [[Next-MOC|Next section]]
 
-## Dataview: this section
-```dataview
-TABLE difficulty, status, related as "Links"
-WHERE file.folder = "{{folder}}" AND type = "concept"
-SORT file.name
-```
+## Notes in this section
+| Note | Difficulty | Status |
+| --- | --- | --- |
+| [[Note-1]] | easy | evergreen |
+| [[Note-2]] | medium | seedling |
+
+> [!tip] Re-run the static-table generator after adding notes, or keep this list updated manually.
 
 ## Related
 - [[00-Index-MOC]] · [[Sibling-MOC]]

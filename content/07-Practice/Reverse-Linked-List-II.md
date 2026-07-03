@@ -1,17 +1,18 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/medium
-  - dsa/pattern/in-place-reversal
+- dsa/pattern/in-place-reversal
+- practice
+- practice/medium
 difficulty: medium
-pattern: "[[In-Place-Reversal]]"
-source: ""
+pattern: '[[In-Place-Reversal]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - Reverse Linked List II
+- Reverse Linked List II
 ---
+
 
 # Reverse Linked List II
 

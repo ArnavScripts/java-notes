@@ -1,17 +1,18 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/medium
-  - dsa/pattern/k-way-merge
+- dsa/pattern/k-way-merge
+- practice
+- practice/medium
 difficulty: medium
-pattern: "[[K-Way-Merge]]"
-source: ""
+pattern: '[[K-Way-Merge]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - K Closest Points to Origin
+- K Closest Points to Origin
 ---
+
 
 # K Closest Points to Origin
 

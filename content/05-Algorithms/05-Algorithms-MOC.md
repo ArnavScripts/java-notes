@@ -33,16 +33,22 @@ The "how" — procedures that transform inputs into answers, analyzed by **time/
 > [!tip] Mental model
 > Algorithms = the steps; [[06-Patterns-MOC|Patterns]] = the *recognizable shapes* of those steps for common problem families. Master algorithms, then drill patterns.
 
-## Dataview: this section
-```dataview
-TABLE difficulty, status, related as "Links"
-WHERE file.folder = "05-Algorithms" AND type = "concept"
-SORT file.name
-```
+## Notes in this section
+| Note | Difficulty | Status |
+| --- | --- | --- |
+| [[Backtracking]] | hard | evergreen |
+| [[Bit-Manipulation]] | medium | evergreen |
+| [[Complexity-Analysis]] | easy | evergreen |
+| [[DP]] | hard | evergreen |
+| [[Divide-and-Conquer]] | medium | evergreen |
+| [[Greedy]] | medium | evergreen |
+| [[Math]] | medium | evergreen |
+| [[Recursion]] | medium | evergreen |
+| [[Searching]] | easy | evergreen |
+| [[Sorting]] | medium | evergreen |
 
-## Dataview: thin notes to expand
-```dataview
-TABLE file.name as "Note", length(file.content) as "Chars"
-WHERE file.folder = "05-Algorithms" AND type = "concept" AND length(file.content) < 3000
-SORT length(file.content) ASC
-```
+## Thin notes to expand
+| Note | Chars |
+| --- | --- |
+| [[Complexity-Analysis]] | 2463 |
+| [[Recursion]] | 2996 |

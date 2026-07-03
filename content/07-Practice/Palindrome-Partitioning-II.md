@@ -1,17 +1,18 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/hard
-  - dsa/pattern/prefix-sum
+- dsa/pattern/dp
+- practice
+- practice/hard
 difficulty: hard
-pattern: "[[Prefix-Sum]]"
-source: ""
+pattern: '[[DP]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - Palindrome Partitioning II
+- Palindrome Partitioning II
 ---
+
 
 # Palindrome Partitioning II
 

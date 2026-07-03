@@ -29,16 +29,21 @@ The parts of Java that turn "I can write a loop" into "I can write efficient, id
 > [!tip] Prerequisite
 > Comfortable with [[02-OOPS-MOC|OOPS]] (interfaces, generics lean on it) and [[04-Data-Structures-MOC|DS]] (collections implement them).
 
-## Dataview: this section
-```dataview
-TABLE difficulty, status, related as "Links"
-WHERE file.folder = "03-Java-Advanced" AND type = "concept"
-SORT file.name
-```
+## Notes in this section
+| Note | Difficulty | Status |
+| --- | --- | --- |
+| [[Collections-Framework]] | medium | evergreen |
+| [[Exception-Handling]] | medium | evergreen |
+| [[Generics]] | medium | evergreen |
+| [[IO-and-NIO]] | medium | evergreen |
+| [[JVM-and-Memory]] | hard | evergreen |
+| [[Multithreading]] | hard | evergreen |
+| [[Streams-and-Lambdas]] | medium | evergreen |
 
-## Dataview: thin notes to expand
-```dataview
-TABLE file.name as "Note", length(file.content) as "Chars"
-WHERE file.folder = "03-Java-Advanced" AND type = "concept" AND length(file.content) < 3000
-SORT length(file.content) ASC
-```
+## Thin notes to expand
+| Note | Chars |
+| --- | --- |
+| [[Generics]] | 2449 |
+| [[IO-and-NIO]] | 2636 |
+| [[Exception-Handling]] | 2694 |
+| [[JVM-and-Memory]] | 2803 |

@@ -1,17 +1,18 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/easy
-  - dsa/pattern/two-pointers
+- dsa/pattern/two-pointers
+- practice
+- practice/easy
 difficulty: easy
-pattern: "[[Two-Pointers]]"
-source: ""
+pattern: '[[Two-Pointers]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - Valid Palindrome
+- Valid Palindrome
 ---
+
 
 # Valid Palindrome
 

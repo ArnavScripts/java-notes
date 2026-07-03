@@ -1,17 +1,19 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/hard
-  - dsa/pattern/tbd
+- dsa/pattern/k-way-merge
+- practice
+- practice/hard
 difficulty: hard
-pattern: "[[]]"
-source: ""
+pattern: '[[K-Way-Merge]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - Find Median from Data Stream
+- Find Median from Data Stream
 ---
+
+
 
 # Find Median from Data Stream
 

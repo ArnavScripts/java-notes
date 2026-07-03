@@ -1,17 +1,18 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/hard
-  - dsa/pattern/prefix-sum
+- dsa/pattern/divide-and-conquer
+- practice
+- practice/hard
 difficulty: hard
-pattern: "[[Prefix-Sum]]"
-source: ""
+pattern: '[[Divide-and-Conquer]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - Count of Smaller Numbers After Self
+- Count of Smaller Numbers After Self
 ---
+
 
 # Count of Smaller Numbers After Self
 

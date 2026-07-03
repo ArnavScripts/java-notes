@@ -1,17 +1,17 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/medium
-  - dsa/pattern/tbd
+- practice
+- practice/medium
 difficulty: medium
-pattern: "[[]]"
-source: ""
+source: ''
 status: seedling
 related: []
 aliases:
-  - Longest Repeating Character Replacement
+- Longest Repeating Character Replacement
 ---
+
+
 
 # Longest Repeating Character Replacement
 

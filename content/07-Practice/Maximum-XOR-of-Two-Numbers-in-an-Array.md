@@ -1,17 +1,18 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/hard
-  - dsa/pattern/prefix-sum
+- dsa/pattern/bit-manipulation
+- practice
+- practice/hard
 difficulty: hard
-pattern: "[[Prefix-Sum]]"
-source: ""
+pattern: '[[Bit-Manipulation]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - Maximum XOR of Two Numbers in an Array
+- Maximum XOR of Two Numbers in an Array
 ---
+
 
 # Maximum XOR of Two Numbers in an Array
 

@@ -1,17 +1,18 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/medium
-  - dsa/pattern/cyclic-sort
+- dsa/pattern/cyclic-sort
+- practice
+- practice/medium
 difficulty: medium
-pattern: "[[Cyclic-Sort]]"
-source: ""
+pattern: '[[Cyclic-Sort]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - Find All Numbers Disappeared in an Array
+- Find All Numbers Disappeared in an Array
 ---
+
 
 # Find All Numbers Disappeared in an Array
 

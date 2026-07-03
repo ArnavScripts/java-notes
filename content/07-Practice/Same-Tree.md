@@ -1,17 +1,18 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/easy
-  - dsa/pattern/tree-dfs
+- dsa/pattern/tree-dfs
+- practice
+- practice/easy
 difficulty: easy
-pattern: "[[Tree-DFS]]"
-source: ""
+pattern: '[[Tree-DFS]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - Same Tree
+- Same Tree
 ---
+
 
 # Same Tree
 

@@ -1,17 +1,18 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/medium
-  - dsa/pattern/graph-bfs
+- dsa/pattern/graph-bfs
+- practice
+- practice/medium
 difficulty: medium
-pattern: "[[Graph-BFS]]"
-source: ""
+pattern: '[[Graph-BFS]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - Walls and Gates
+- Walls and Gates
 ---
+
 
 # Walls and Gates
 

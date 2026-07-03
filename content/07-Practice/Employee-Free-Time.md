@@ -1,17 +1,19 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/medium
-  - dsa/pattern/merge-intervals
+- dsa/pattern/merge-intervals
+- practice
+- practice/medium
 difficulty: medium
-pattern: "[[Merge-Intervals]]"
-source: ""
+pattern: '[[06-Patterns-Techniques/Merge-Intervals|Merge-Intervals]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - Employee Free Time
+- Employee Free Time
 ---
+
+
 
 # Employee Free Time
 

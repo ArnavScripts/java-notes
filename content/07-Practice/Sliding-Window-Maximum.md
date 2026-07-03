@@ -1,17 +1,18 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/hard
-  - dsa/pattern/sliding-window
+- dsa/pattern/sliding-window
+- practice
+- practice/hard
 difficulty: hard
-pattern: "[[Sliding-Window]]"
-source: ""
+pattern: '[[Sliding-Window]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - Sliding Window Maximum
+- Sliding Window Maximum
 ---
+
 
 # Sliding Window Maximum
 

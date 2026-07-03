@@ -1,17 +1,18 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/medium
-  - dsa/pattern/fast-slow-pointers
+- dsa/pattern/fast-slow-pointers
+- practice
+- practice/medium
 difficulty: medium
-pattern: "[[Fast-Slow-Pointers]]"
-source: ""
+pattern: '[[Fast-Slow-Pointers]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - Linked List Cycle II
+- Linked List Cycle II
 ---
+
 
 # Linked List Cycle II
 

@@ -1,17 +1,18 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/medium
-  - dsa/pattern/two-pointers
+- dsa/pattern/two-pointers
+- practice
+- practice/medium
 difficulty: medium
-pattern: "[[Two-Pointers]]"
-source: ""
+pattern: '[[Two-Pointers]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - Container With Most Water
+- Container With Most Water
 ---
+
 
 # Container With Most Water
 

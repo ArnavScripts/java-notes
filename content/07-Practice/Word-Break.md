@@ -1,17 +1,18 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/medium
-  - dsa/pattern/prefix-sum
+- dsa/pattern/dp
+- practice
+- practice/medium
 difficulty: medium
-pattern: "[[Prefix-Sum]]"
-source: ""
+pattern: '[[DP]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - Word Break
+- Word Break
 ---
+
 
 # Word Break
 

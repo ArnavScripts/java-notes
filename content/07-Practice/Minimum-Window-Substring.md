@@ -1,17 +1,18 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/medium
-  - dsa/pattern/sliding-window
+- dsa/pattern/sliding-window
+- practice
+- practice/medium
 difficulty: medium
-pattern: "[[Sliding-Window]]"
-source: ""
+pattern: '[[Sliding-Window]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - Minimum Window Substring
+- Minimum Window Substring
 ---
+
 
 # Minimum Window Substring
 

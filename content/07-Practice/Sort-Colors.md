@@ -1,17 +1,18 @@
 ---
 type: question
 tags:
-  - practice
-  - practice/medium
-  - dsa/pattern/prefix-sum
+- dsa/pattern/sorting
+- practice
+- practice/medium
 difficulty: medium
-pattern: "[[Prefix-Sum]]"
-source: ""
+pattern: '[[Sorting]]'
+source: ''
 status: seedling
 related: []
 aliases:
-  - Sort Colors
+- Sort Colors
 ---
+
 
 # Sort Colors
 
